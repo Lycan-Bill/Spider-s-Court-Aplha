@@ -1,0 +1,98 @@
+{
+	"monster_brains": [{
+		"id": "lord",
+		"skill_cooldowns": [{
+				"combat_skill_id": "rib_breaker",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "lord_load",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "the_hunger_human",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "lords_horn",
+				"amount": 1
+
+			},
+			{
+				"combat_skill_id": "penetrating_assault",
+				"amount": 1
+
+			},
+			{
+				"combat_skill_id": "the_hunger_beast",
+				"amount": 1
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "rib_breaker"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "lord_load"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "the_hunger_human",
+					"performer_health_ratio_min": 0.01,
+					"performer_health_ratio_max": 0.25
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "lords_horn"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "penetrating_assault"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "concubine_guard"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "the_hunger_beast"
+				}
+			}
+		],
+		"target_selection_desires": [{
+			"type": "random_target",
+			"data": {
+				"base_chance": 1.0,
+				"specific_combat_skill_id": "",
+				"is_exclusive_desire": false,
+				"is_enemy_target_desire": true,
+				"is_friendly_target_desire": true
+			}
+		}],
+		"bonus_initiative_desires": []
+	}]
+}

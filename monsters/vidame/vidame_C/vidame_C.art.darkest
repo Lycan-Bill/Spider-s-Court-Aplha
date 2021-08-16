@@ -1,0 +1,10 @@
+commonfx: .deathfx death_medium
+skill: .id "noble_edict" .anim "combat"
+skill: .id "high_born_sneer" .anim "combat" 
+skill: .id "the_hunger_human" .anim "combat" 
+skill: .id "aristocratic_assault"  .anim "combat"
+skill: .id "agriope_many_legs" .anim "combat"
+skill: .id "the_hunger_beast" .anim "combat"
+skill: .id "vidame_rifle" .anim "attack_rifle" .fx "attack_rifle"
+riposte_skill: .id "riposte1" .anim "combat" 
+defending_area_pos_offset: .offset 0 -25

@@ -1,0 +1,7 @@
+commonfx: .deathfx death_medium
+skill: .id "claw" .anim "shiver" .area_pos_offset 0 -35
+skill: .id "ingurgitate" .anim "consume_bug"
+skill: .id "beast_claw" .anim "beast_attack"
+skill: .id "shed_carapace" .anim "shed_skin"
+riposte_skill: .id "riposte1" .anim "beast_claw"
+defending_area_pos_offset: .offset 0 -25

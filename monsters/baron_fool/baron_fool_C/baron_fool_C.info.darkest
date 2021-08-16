@@ -1,0 +1,18 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 120 .def 60% .prot 0.2 .spd 11 .stun_resist 100% .poison_resist 90% .bleed_resist 55% .debuff_resist 20% .move_resist 55%
+
+skill: .id "fool_show_time" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "FOOL SHOWTIME! 1" "FOOL SHOWTIME! 2" "FOOL SHOWTIME! 3" .launch 4321 .target ~1234  .is_crit_valid False .is_knowledgeable false
+skill: .id "fool_bow" .type "ranged" .atk 120% .dmg 0 0 .crit 0%  .effect "Fool Bow Dodge"  .launch 4321 .target .move 3 0
+skill: .id "fool_taunt" .type "ranged" .atk 120% .dmg 0 0 .crit 0%  .effect "Fool Riposte" "Fool Taunt Mark" "Fool Taunt Stress" .launch 4321 .target 1234  
+skill: .id "fool_encourage" .type "ranged" .atk 0% .dmg 0 0 .crit 0%  .effect "Fool Encourage" .launch 4321 .target @1234 
+riposte_skill: .id "riposte_attack" .type "melee" .atk 102.5% .dmg 6 13 .crit 9%  .effect "Viscount Bleed" .launch 4321 .target 1234
+
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 2
+monster_brain: .id baron_fool
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+death_class: .monster_class_id baron_B .use_previous_monster_hp true .is_valid_on_bleed_dot true .is_valid_on_blight_dot true .is_valid_on_crit true .type baron .clear_monster_brain_cooldowns false .reset_scale_anim false .on_change_sfx true
+audio_modifier: .ambience_parameter_ids crowd .ambience_parameter_values 1.0

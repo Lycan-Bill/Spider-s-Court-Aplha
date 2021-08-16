@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "fool_show_time" .anim "defend"
+skill: .id "fool_bow" .anim "defend"
+skill: .id "fool_taunt" .anim "defend"
+skill: .id "fool_encourage" .anim "defend"
+riposte_skill: .id "riposte_attack" .anim "defend" .fx "riposte" .targchestfx "blood_splatter"

@@ -1,0 +1,20 @@
+
+gourmand.sprite.dead.png
+size: 1429,940
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmand_corpse
+  rotate: false
+  xy: 2, 2
+  size: 1368, 936
+  orig: 1368, 936
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1372, 608
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

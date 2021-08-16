@@ -1,0 +1,121 @@
+{
+	"monster_brains": [{
+		"id": "concubine",
+		"skill_cooldowns": [{
+				"combat_skill_id": "cc_lovers",
+				"amount": 200
+			},
+			{
+				"combat_skill_id": "cc_lovers2",
+				"amount": 2
+			},
+			{
+				"combat_skill_id": "cc_lovers4",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "cc_lovers5",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "the_hunger_human",
+				"amount": 3
+
+			},
+			{
+				"combat_skill_id": "concubine_guard",
+				"amount": 6
+			},
+			{
+				"combat_skill_id": "concubine_kiss",
+				"amount": 1
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 2,
+					"combat_skill_id": "cc_lovers"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 2,
+					"combat_skill_id": "cc_lovers2"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 2,
+					"combat_skill_id": "cc_lovers4"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 2,
+					"combat_skill_id": "cc_lovers5"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "the_hunger_human",
+					"first_initiative_only": false
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "concubine_guard",
+					"monsters_min": 2,
+					"monsters_max": 4,
+					"guarded_monsters_min": 0,
+					"guarded_monsters_max": 0
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "concubine_kiss",
+					"first_initiative_only": false
+				}
+			}
+		],
+		"target_selection_desires": [{
+			"type": "random_target",
+			"data": {
+				"base_chance": 1.0,
+				"specific_combat_skill_id": "",
+				"is_exclusive_desire": false,
+				"is_enemy_target_desire": true,
+				"is_friendly_target_desire": true
+			}
+		}],
+		"bonus_initiative_desires": []
+	}]
+}

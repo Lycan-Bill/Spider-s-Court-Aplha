@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "blood_wave" .anim "blood"
+skill: .id "prayer_to_blood" .anim "prayers"
+skill: .id "the_hunger_human" .anim "thirst"
+skill: .id "the_hunger_beast" .anim "thirst"
+skill: .id "cardinal_heresy" .anim "heresey"
+skill: .id "blood_salvation" .anim "salvation"
+skill: .id "heed_faithful" .anim "heed" .targchestfx "wave_target"
+defending_area_pos_offset: .offset 0 -35

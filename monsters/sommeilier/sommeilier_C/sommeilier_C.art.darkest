@@ -1,0 +1,16 @@
+commonfx: .deathfx death_large_boss
+skill: .id "taste1" .anim "attack_drink"
+skill: .id "taste2" .anim "attack_drink"
+skill: .id "taste3" .anim "attack_drink"
+skill: .id "imbibed_squat" .anim "defend" 
+skill: .id "drunken_lunge" .anim "attack_lunge"
+skill: .id "festering_maw" .anim "attack_lunge"
+skill: .id "neurotic_toxin" .anim "attack_lunge"
+skill: .id "drink_anger" .anim "defend"
+skill: .id "drink_anger2" .anim "defend"
+skill: .id "drink_anger3" .anim "defend"
+
+riposte_skill: .id "riposte_attack" .anim "attack_lunge" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
+defending_area_pos_offset: .offset 0 -80
+
+audio_modifier: .intensity 3

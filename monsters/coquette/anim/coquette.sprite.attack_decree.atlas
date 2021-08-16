@@ -1,0 +1,20 @@
+
+coquette.sprite.attack_decree.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 809
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+noble
+  rotate: false
+  xy: 1, 1
+  size: 810, 806
+  orig: 810, 806
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+the_blessed.sprite.defend.png
+size: 615,1423
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TheBlessedDodge
+  rotate: false
+  xy: 2, 2
+  size: 611, 696
+  orig: 611, 696
+  offset: 0, 0
+  index: -1
+TheBlessedHumanDodge
+  rotate: true
+  xy: 2, 700
+  size: 560, 607
+  orig: 560, 607
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 1262
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

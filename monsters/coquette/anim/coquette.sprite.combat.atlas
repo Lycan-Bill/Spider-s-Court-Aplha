@@ -1,0 +1,419 @@
+
+coquette.sprite.combat.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1171, 856
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+human_left_hair
+  rotate: false
+  xy: 1936, 1
+  size: 104, 174
+  orig: 104, 174
+  offset: 0, 0
+  index: -1
+human_left_arm
+  rotate: false
+  xy: 1931, 892
+  size: 96, 131
+  orig: 96, 131
+  offset: 0, 0
+  index: -1
+human_torso
+  rotate: false
+  xy: 1196, 638
+  size: 209, 216
+  orig: 209, 216
+  offset: 0, 0
+  index: -1
+human_right_crinoline
+  rotate: false
+  xy: 1, 638
+  size: 329, 380
+  orig: 329, 380
+  offset: 0, 0
+  index: -1
+human_left_crinoline
+  rotate: false
+  xy: 604, 638
+  size: 171, 376
+  orig: 171, 376
+  offset: 0, 0
+  index: -1
+human_left_crinoline_ribbon
+  rotate: false
+  xy: 523, 1
+  size: 152, 196
+  orig: 152, 196
+  offset: 0, 0
+  index: -1
+human_right_crinoline_ribbon
+  rotate: false
+  xy: 332, 638
+  size: 270, 278
+  orig: 270, 278
+  offset: 0, 0
+  index: -1
+human_flower_belt
+  rotate: false
+  xy: 777, 924
+  size: 147, 54
+  orig: 147, 54
+  offset: 0, 0
+  index: -1
+human_left_collar
+  rotate: false
+  xy: 531, 918
+  size: 56, 55
+  orig: 56, 55
+  offset: 0, 0
+  index: -1
+human_head
+  rotate: false
+  xy: 777, 638
+  size: 175, 284
+  orig: 175, 284
+  offset: 0, 0
+  index: -1
+human_right_hair
+  rotate: false
+  xy: 1931, 739
+  size: 100, 151
+  orig: 100, 151
+  offset: 0, 0
+  index: -1
+human_right_collar
+  rotate: false
+  xy: 660, 348
+  size: 68, 54
+  orig: 68, 54
+  offset: 0, 0
+  index: -1
+human_jaw
+  rotate: false
+  xy: 1171, 996
+  size: 38, 22
+  orig: 38, 22
+  offset: 0, 0
+  index: -1
+human_left_eye
+  rotate: false
+  xy: 926, 924
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+human_right_eye
+  rotate: false
+  xy: 432, 986
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+human_left_cuff_bow
+  rotate: false
+  xy: 1171, 921
+  size: 39, 73
+  orig: 39, 73
+  offset: 0, 0
+  index: -1
+human_left_cuff
+  rotate: false
+  xy: 756, 228
+  size: 52, 160
+  orig: 52, 160
+  offset: 0, 0
+  index: -1
+human_left_forearm
+  rotate: false
+  xy: 677, 1
+  size: 91, 116
+  orig: 91, 116
+  offset: 0, 0
+  index: -1
+human_left_thumb
+  rotate: false
+  xy: 926, 954
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+human_left_pinky
+  rotate: false
+  xy: 2029, 892
+  size: 15, 40
+  orig: 15, 40
+  offset: 0, 0
+  index: -1
+human_left_middle
+  rotate: false
+  xy: 1771, 885
+  size: 16, 40
+  orig: 16, 40
+  offset: 0, 0
+  index: -1
+human_right_cuff
+  rotate: false
+  xy: 1966, 177
+  size: 54, 188
+  orig: 54, 188
+  offset: 0, 0
+  index: -1
+human_right_arm
+  rotate: false
+  xy: 490, 918
+  size: 39, 87
+  orig: 39, 87
+  offset: 0, 0
+  index: -1
+human_right_cuff_bow
+  rotate: false
+  xy: 1966, 367
+  size: 50, 121
+  orig: 50, 121
+  offset: 0, 0
+  index: -1
+human_right_forearm
+  rotate: false
+  xy: 652, 407
+  size: 117, 187
+  orig: 117, 187
+  offset: 0, 0
+  index: -1
+human_right_top_crinoline_tassel
+  rotate: false
+  xy: 2018, 417
+  size: 28, 49
+  orig: 28, 49
+  offset: 0, 0
+  index: -1
+human_right_middle_crinoline_tassel
+  rotate: false
+  xy: 1771, 974
+  size: 29, 47
+  orig: 29, 47
+  offset: 0, 0
+  index: -1
+human_right_bottom_crinoline_tassel
+  rotate: false
+  xy: 2018, 367
+  size: 29, 48
+  orig: 29, 48
+  offset: 0, 0
+  index: -1
+human_left_bottom_crinoline_tassel
+  rotate: false
+  xy: 465, 986
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+human_left_middle_crinoline_tassel
+  rotate: false
+  xy: 577, 975
+  size: 25, 41
+  orig: 25, 41
+  offset: 0, 0
+  index: -1
+human_left_top_crinoline_tassel
+  rotate: false
+  xy: 1740, 980
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+human_left_top_crinoline_bow
+  rotate: false
+  xy: 677, 119
+  size: 65, 78
+  orig: 65, 78
+  offset: 0, 0
+  index: -1
+human_left_bottom_crinoline_bow
+  rotate: false
+  xy: 332, 918
+  size: 45, 98
+  orig: 45, 98
+  offset: 0, 0
+  index: -1
+human_right_bottom_crinoline_bow
+  rotate: false
+  xy: 1709, 885
+  size: 60, 93
+  orig: 60, 93
+  offset: 0, 0
+  index: -1
+human_right_top_crinoline_bow
+  rotate: false
+  xy: 432, 918
+  size: 56, 66
+  orig: 56, 66
+  offset: 0, 0
+  index: -1
+beast_left_rear_leg
+  rotate: false
+  xy: 379, 918
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+beast_left_middle_leg
+  rotate: false
+  xy: 1792, 1
+  size: 142, 270
+  orig: 142, 270
+  offset: 0, 0
+  index: -1
+beast_left_wing
+  rotate: false
+  xy: 523, 407
+  size: 127, 216
+  orig: 127, 216
+  offset: 0, 0
+  index: -1
+beast_left_wing_blur
+  rotate: false
+  xy: 1920, 494
+  size: 126, 243
+  orig: 126, 243
+  offset: 0, 0
+  index: -1
+beast_right_wing
+  rotate: false
+  xy: 1792, 273
+  size: 172, 219
+  orig: 172, 219
+  offset: 0, 0
+  index: -1
+beast_right_wing_blur
+  rotate: false
+  xy: 1620, 638
+  size: 170, 245
+  orig: 170, 245
+  offset: 0, 0
+  index: -1
+beast_left_arm
+  rotate: false
+  xy: 1792, 750
+  size: 137, 222
+  orig: 137, 222
+  offset: 0, 0
+  index: -1
+beast_left_hair
+  rotate: false
+  xy: 756, 119
+  size: 87, 107
+  orig: 87, 107
+  offset: 0, 0
+  index: -1
+beast_body
+  rotate: false
+  xy: 1, 1
+  size: 520, 635
+  orig: 520, 635
+  offset: 0, 0
+  index: -1
+beast_head
+  rotate: false
+  xy: 954, 638
+  size: 240, 192
+  orig: 240, 192
+  offset: 0, 0
+  index: -1
+beast_right_hair
+  rotate: false
+  xy: 660, 199
+  size: 94, 147
+  orig: 94, 147
+  offset: 0, 0
+  index: -1
+beast_left_eye
+  rotate: false
+  xy: 730, 348
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+beast_right_eye
+  rotate: false
+  xy: 531, 975
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+beast_left_mandible
+  rotate: false
+  xy: 1771, 927
+  size: 18, 35
+  orig: 18, 35
+  offset: 0, 0
+  index: -1
+beast_left_hand
+  rotate: false
+  xy: 1614, 885
+  size: 93, 133
+  orig: 93, 133
+  offset: 0, 0
+  index: -1
+beast_left_pinky
+  rotate: false
+  xy: 1212, 921
+  size: 30, 75
+  orig: 30, 75
+  offset: 0, 0
+  index: -1
+beast_left_middle
+  rotate: false
+  xy: 770, 1
+  size: 32, 109
+  orig: 32, 109
+  offset: 0, 0
+  index: -1
+beast_right_arm
+  rotate: false
+  xy: 1407, 638
+  size: 211, 210
+  orig: 211, 210
+  offset: 0, 0
+  index: -1
+beast_right_rear_leg
+  rotate: false
+  xy: 954, 832
+  size: 215, 184
+  orig: 215, 184
+  offset: 0, 0
+  index: -1
+beast_right_middle_leg
+  rotate: false
+  xy: 523, 199
+  size: 135, 206
+  orig: 135, 206
+  offset: 0, 0
+  index: -1
+beast_right_front_leg
+  rotate: false
+  xy: 1530, 850
+  size: 82, 169
+  orig: 82, 169
+  offset: 0, 0
+  index: -1
+beast_abdomen_front
+  rotate: false
+  xy: 1792, 494
+  size: 126, 254
+  orig: 126, 254
+  offset: 0, 0
+  index: -1
+beast_right_mandible
+  rotate: false
+  xy: 1709, 980
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,9 @@
+{
+    "quest_type_event_guarantees": [
+        {
+            "dungeon_type": "courtyard",
+            "quest_type": "activate_sc_alter",
+            "event_id": "wrath_of_the_cardinal"
+        }
+    ]
+}

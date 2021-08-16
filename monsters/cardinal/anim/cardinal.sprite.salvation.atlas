@@ -1,0 +1,20 @@
+
+cardinal.sprite.salvation.png
+size: 965,604
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cardinal_salvaltion_
+  rotate: false
+  xy: 2, 2
+  size: 800, 600
+  orig: 800, 600
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 804, 57
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

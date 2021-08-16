@@ -1,0 +1,27 @@
+
+cardinal.sprite.defend.png
+size: 709,765
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cardinal_hu_defend
+  rotate: false
+  xy: 411, 163
+  size: 296, 600
+  orig: 296, 600
+  offset: 0, 0
+  index: -1
+cardinal_sp_defend
+  rotate: false
+  xy: 2, 191
+  size: 407, 572
+  orig: 407, 572
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 2
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

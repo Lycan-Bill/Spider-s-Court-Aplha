@@ -1,0 +1,160 @@
+
+spider_bishop.sprite.combat.png
+size: 3843,764
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 3209, 12
+  size: 189, 221
+  orig: 189, 221
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 1244, 10
+  size: 312, 453
+  orig: 312, 453
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 3654, 138
+  size: 187, 178
+  orig: 187, 178
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 3311, 326
+  size: 132, 118
+  orig: 132, 118
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 1699, 57
+  size: 265, 478
+  orig: 265, 478
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 2872, 191
+  size: 258, 253
+  orig: 258, 253
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 2179, 2
+  size: 320, 209
+  orig: 320, 209
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 2413, 225
+  size: 224, 457
+  orig: 224, 457
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 3432, 29
+  size: 80, 122
+  orig: 80, 122
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 3514, 43
+  size: 75, 108
+  orig: 75, 108
+  offset: 0, 0
+  index: -1
+18.1
+  rotate: false
+  xy: 3451, 153
+  size: 201, 163
+  orig: 201, 163
+  offset: 0, 0
+  index: -1
+18.2
+  rotate: false
+  xy: 3311, 221
+  size: 138, 103
+  orig: 138, 103
+  offset: 0, 0
+  index: -1
+19
+  rotate: true
+  xy: 2, 13
+  size: 749, 1240
+  orig: 749, 1240
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 3018, 26
+  size: 163, 189
+  orig: 163, 189
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 1244, 324
+  size: 438, 1167
+  orig: 438, 1167
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 2413, 451
+  size: 311, 544
+  orig: 311, 544
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 3465, 318
+  size: 295, 444
+  orig: 295, 444
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 2390, 43
+  size: 180, 361
+  orig: 180, 361
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 2959, 446
+  size: 316, 504
+  orig: 316, 504
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 3132, 203
+  size: 177, 241
+  orig: 177, 241
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 2753, 35
+  size: 154, 263
+  orig: 154, 263
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 3762, 432
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

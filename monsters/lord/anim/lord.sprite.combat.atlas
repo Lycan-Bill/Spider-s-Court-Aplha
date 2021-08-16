@@ -1,0 +1,244 @@
+
+lord.sprite.combat.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 412, 1027
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+man arm L
+  rotate: false
+  xy: 833, 1286
+  size: 118, 316
+  orig: 118, 316
+  offset: 0, 0
+  index: -1
+man lower jacket
+  rotate: false
+  xy: 592, 417
+  size: 286, 203
+  orig: 286, 203
+  offset: 0, 0
+  index: -1
+man hips
+  rotate: false
+  xy: 953, 1286
+  size: 145, 176
+  orig: 145, 176
+  offset: 0, 0
+  index: -1
+man right leg
+  rotate: false
+  xy: 880, 355
+  size: 114, 241
+  orig: 114, 241
+  offset: 0, 0
+  index: -1
+man left leg
+  rotate: false
+  xy: 924, 1
+  size: 79, 250
+  orig: 79, 250
+  offset: 0, 0
+  index: -1
+man torso
+  rotate: false
+  xy: 540, 1635
+  size: 283, 299
+  orig: 283, 299
+  offset: 0, 0
+  index: -1
+man head
+  rotate: false
+  xy: 825, 1635
+  size: 286, 277
+  orig: 288, 279
+  offset: 1, 1
+  index: -1
+man arm R
+  rotate: false
+  xy: 1, 1726
+  size: 176, 291
+  orig: 176, 291
+  offset: 0, 0
+  index: -1
+man tassel thing 2
+  rotate: false
+  xy: 179, 1890
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+man tassel thing
+  rotate: false
+  xy: 680, 1936
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+man blunderbuss
+  rotate: false
+  xy: 1, 1105
+  size: 253, 619
+  orig: 255, 621
+  offset: 1, 1
+  index: -1
+man right eye
+  rotate: false
+  xy: 754, 985
+  size: 14, 26
+  orig: 16, 28
+  offset: 1, 1
+  index: -1
+man left eye
+  rotate: false
+  xy: 540, 1563
+  size: 29, 25
+  orig: 31, 27
+  offset: 1, 1
+  index: -1
+lower_jacket
+  rotate: false
+  xy: 1, 1
+  size: 589, 677
+  orig: 589, 677
+  offset: 0, 0
+  index: -1
+bug wings 2
+  rotate: false
+  xy: 256, 1563
+  size: 282, 394
+  orig: 284, 396
+  offset: 1, 1
+  index: -1
+bug wings 1
+  rotate: false
+  xy: 256, 1105
+  size: 321, 456
+  orig: 323, 458
+  offset: 1, 1
+  index: -1
+bug torso
+  rotate: false
+  xy: 1, 680
+  size: 409, 423
+  orig: 409, 423
+  offset: 0, 0
+  index: -1
+bug rope
+  rotate: false
+  xy: 179, 1726
+  size: 30, 162
+  orig: 30, 162
+  offset: 0, 0
+  index: -1
+bug right foot
+  rotate: false
+  xy: 758, 1
+  size: 164, 352
+  orig: 164, 352
+  offset: 0, 0
+  index: -1
+bug left foot
+  rotate: false
+  xy: 833, 985
+  size: 169, 299
+  orig: 169, 299
+  offset: 0, 0
+  index: -1
+bug lower right scythe
+  rotate: false
+  xy: 754, 622
+  size: 141, 361
+  orig: 141, 361
+  offset: 0, 0
+  index: -1
+bug crotch
+  rotate: false
+  xy: 825, 1914
+  size: 240, 126
+  orig: 240, 126
+  offset: 0, 0
+  index: -1
+bug lower left scythe
+  rotate: false
+  xy: 1113, 1635
+  size: 223, 327
+  orig: 223, 327
+  offset: 0, 0
+  index: -1
+bug uper left scythe
+  rotate: false
+  xy: 592, 1
+  size: 164, 414
+  orig: 164, 414
+  offset: 0, 0
+  index: -1
+bug upper left scythe
+  rotate: false
+  xy: 579, 1105
+  size: 252, 528
+  orig: 252, 528
+  offset: 0, 0
+  index: -1
+bug tassel2
+  rotate: false
+  xy: 540, 1936
+  size: 138, 102
+  orig: 138, 102
+  offset: 0, 0
+  index: -1
+bug tassel
+  rotate: false
+  xy: 771, 985
+  size: 52, 82
+  orig: 52, 82
+  offset: 0, 0
+  index: -1
+bug helmet
+  rotate: false
+  xy: 412, 680
+  size: 340, 345
+  orig: 342, 347
+  offset: 1, 1
+  index: -1
+bug lower teeth
+  rotate: false
+  xy: 779, 1936
+  size: 43, 25
+  orig: 45, 27
+  offset: 1, 1
+  index: -1
+bug uper teeth
+  rotate: false
+  xy: 771, 1069
+  size: 47, 34
+  orig: 49, 36
+  offset: 1, 1
+  index: -1
+bug mandibles
+  rotate: false
+  xy: 953, 1464
+  size: 168, 124
+  orig: 168, 124
+  offset: 0, 0
+  index: -1
+bug left eye
+  rotate: false
+  xy: 810, 355
+  size: 39, 37
+  orig: 41, 39
+  offset: 1, 1
+  index: -1
+bug right eye
+  rotate: false
+  xy: 758, 355
+  size: 50, 45
+  orig: 52, 47
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,15 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 23 .def 21.25% .prot 0.2 .spd 3 .stun_resist 190% .poison_resist 90% .bleed_resist 55% .debuff_resist 80% .move_resist 65%
+skill: .id "ca_command" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Admiral Bonus Action" "Concubine Damage Buff" .launch 4321 .target @321 .self_target_valid False .is_crit_valid False
+skill: .id "ca_orders" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Admiral Bonus Action" "Concubine Damage Buff" .launch 4321 .target @321 .self_target_valid False .is_crit_valid False
+skill: .id "ca_instruct" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Admiral Bonus Action" "Concubine Damage Buff" .launch 4321 .target @321 .self_target_valid False .is_crit_valid False
+skill: .id "ca_stab" .type "melee" .atk 83.75% .dmg 2 6 .crit 9%  .effect "CourtyardPlus Bleed Res Debuff 3" .launch 1 .target 12 .move 0 1
+personality: .prefskill -1
+loot: .code "A_COURTYARD" .count 1
+loot: .code "BLOOD_RARE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id admiral
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front False

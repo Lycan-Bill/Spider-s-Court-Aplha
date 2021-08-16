@@ -1,0 +1,20 @@
+
+spider_bishop.sprite.sermonize.png
+size: 1540,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 1483, 516
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+spider_bishop_lineart_sermonize
+  rotate: true
+  xy: 2, 2
+  size: 844, 1479
+  orig: 844, 1479
+  offset: 0, 0
+  index: -1

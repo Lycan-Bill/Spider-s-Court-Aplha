@@ -1,0 +1,132 @@
+{
+	"monster_brains": [{
+			"id": "coquette",
+			"skill_cooldowns": [{
+					"combat_skill_id": "noble_decree",
+					"amount": 200
+				},
+				{
+					"combat_skill_id": "the_hunger_beast",
+					"amount": 3
+
+				}
+			],
+			"skill_selection_desires": [{
+					"type": "random_skill",
+					"data": {
+						"base_chance": 1.0
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3000.0,
+						"combat_skill_id": "noble_decree"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "coquette_fan"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "coquette_guard",
+						"monsters_min": 2,
+						"monsters_max": 4,
+						"guarded_monsters_min": 0,
+						"guarded_monsters_max": 0
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "coquette_stun"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "coquette_blight"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 36.0,
+						"combat_skill_id": "the_hunger_human",
+						"performer_health_ratio_min": 0.01,
+						"performer_health_ratio_max": 0.6
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "the_hunger_human"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 36.0,
+						"combat_skill_id": "the_hunger_beast",
+						"performer_health_ratio_min": 0.01,
+						"performer_health_ratio_max": 0.5
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 6.0,
+						"combat_skill_id": "the_hunger_beast"
+					}
+				}
+			],
+			"target_selection_desires": [{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "stress_target",
+					"data": {
+						"base_chance": 5.0,
+						"specific_combat_skill_id": "coquette_blight",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": false,
+						"is_greater_comparison": true,
+						"can_target_not_overstressed": true,
+						"can_target_afflicted": true,
+						"can_target_virtued": true
+
+					}
+				}
+			],
+			"bonus_initiative_desires": [{
+				"type": "death",
+				"data": {
+					"is_round_start": false,
+					"is_round_in_progress": true,
+					"is_round_finish": true,
+					"is_pre_turn": false,
+					"is_post_turn": true,
+					"combat_skill_id_override": "coquette_explode"
+				}
+			}]
+		}
+
+	]
+}

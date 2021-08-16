@@ -1,0 +1,28 @@
+{
+    "events": [
+		{
+            "id": "wrath_of_the_cardinal",
+            "base_chance": 0.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 1,
+            "requirements": {
+                "minimum_week": 0,
+                "dead_heroes": 0,
+                "hero_level_counts": [
+				],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "bad",
+            "sprite_attachment": "nomad_wagon",
+            "data": [
+                {
+                    "type": "plot_quest",
+                    "string_data": "plot_spiders_court_3",
+                    "number_data": 0.0
+				}
+            ]
+        }
+    ]
+}

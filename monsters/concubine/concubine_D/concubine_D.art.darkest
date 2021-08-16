@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "cc_lovers" .anim "combat"
+skill: .id "cc_lovers2" .anim "combat"
+skill: .id "cc_lovers3" .anim combat"
+skill: .id "cc_lovers4" .anim "combat"
+skill: .id "cc_lovers5" .anim "combat"
+skill: .id "the_hunger_human" .anim combat"
+riposte_skill: .id "riposte_attack" .anim "combat"
+defending_area_pos_offset: .offset 0 -80

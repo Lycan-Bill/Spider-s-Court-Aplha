@@ -1,0 +1,118 @@
+
+sommeilier.sprite.combat.png
+size: 2706,491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ascot
+  rotate: true
+  xy: 1915, 88
+  size: 144, 97
+  orig: 144, 97
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 1913, 7
+  size: 188, 63
+  orig: 188, 63
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 2535, 328
+  size: 169, 161
+  orig: 169, 161
+  offset: 0, 0
+  index: -1
+cup
+  rotate: true
+  xy: 2014, 155
+  size: 77, 164
+  orig: 77, 164
+  offset: 0, 0
+  index: -1
+glourious_beard
+  rotate: true
+  xy: 2103, 31
+  size: 122, 97
+  orig: 122, 97
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2202, 2
+  size: 224, 214
+  orig: 224, 214
+  offset: 0, 0
+  index: -1
+jacket
+  rotate: true
+  xy: 2, 7
+  size: 482, 775
+  orig: 482, 775
+  offset: 0, 0
+  index: -1
+jacket back
+  rotate: true
+  xy: 779, 7
+  size: 482, 773
+  orig: 482, 773
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 2418, 8
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: true
+  xy: 1554, 234
+  size: 255, 516
+  orig: 255, 516
+  offset: 0, 0
+  index: -1
+left_mandible
+  rotate: true
+  xy: 2072, 427
+  size: 62, 97
+  orig: 62, 97
+  offset: 0, 0
+  index: -1
+leg
+  rotate: true
+  xy: 2180, 228
+  size: 261, 353
+  orig: 261, 353
+  offset: 0, 0
+  index: -1
+mustache
+  rotate: false
+  xy: 2072, 374
+  size: 95, 51
+  orig: 95, 51
+  offset: 0, 0
+  index: -1
+right_Arm
+  rotate: true
+  xy: 1554, 72
+  size: 160, 359
+  orig: 160, 359
+  offset: 0, 0
+  index: -1
+right_mandible
+  rotate: true
+  xy: 2014, 76
+  size: 77, 87
+  orig: 77, 87
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1554, 7
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

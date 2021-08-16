@@ -1,0 +1,27 @@
+
+the_blessed.sprite.beast_attack.png
+size: 1184,729
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TheBlessedAttack
+  rotate: true
+  xy: 2, 2
+  size: 725, 732
+  orig: 725, 732
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1023, 182
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1
+strike
+  rotate: true
+  xy: 736, 108
+  size: 619, 285
+  orig: 619, 285
+  offset: 0, 0
+  index: -1

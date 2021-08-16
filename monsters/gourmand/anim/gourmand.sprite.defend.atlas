@@ -1,0 +1,27 @@
+
+gourmand.sprite.defend.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+besat_defend
+  rotate: false
+  xy: 2, 59
+  size: 1429, 940
+  orig: 1429, 940
+  offset: 0, 0
+  index: -1
+defend
+  rotate: false
+  xy: 1433, 59
+  size: 1429, 940
+  orig: 1429, 940
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

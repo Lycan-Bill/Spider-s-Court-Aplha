@@ -1,0 +1,20 @@
+
+gourmand.sprite.transform.png
+size: 1293,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmand_transform
+  rotate: false
+  xy: 2, 2
+  size: 1232, 1028
+  orig: 1232, 1028
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1236, 700
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

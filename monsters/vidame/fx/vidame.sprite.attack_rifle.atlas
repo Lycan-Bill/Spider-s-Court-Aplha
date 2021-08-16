@@ -1,0 +1,27 @@
+
+vidame.sprite.attack_rifle.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 1, 1
+  size: 305, 222
+  orig: 305, 222
+  offset: 0, 0
+  index: -1
+flash
+  rotate: false
+  xy: 1, 225
+  size: 345, 80
+  orig: 345, 80
+  offset: 0, 0
+  index: -1
+shot
+  rotate: false
+  xy: 308, 1
+  size: 154, 18
+  orig: 154, 18
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,67 @@
+{
+	"monster_brains": [{
+		"id": "marchioness",
+		"skill_cooldowns": [{
+				"combat_skill_id": "love_prayer",
+				"amount": 2
+
+			},
+			{
+				"combat_skill_id": "wicked_love",
+				"amount": 3
+			},
+			{
+				"combat_skill_id": "parasole_slap",
+				"amount": 1
+
+			},
+			{
+				"combat_skill_id": "spider_intervention",
+				"amount": 2
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 2.0,
+					"combat_skill_id": "love_prayer"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "wicked_love"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "parasole_slap"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "spider_intervention"
+				}
+			}
+		],
+		"target_selection_desires": [{
+			"type": "random_target",
+			"data": {
+				"base_chance": 1.0,
+				"specific_combat_skill_id": "",
+				"is_exclusive_desire": false,
+				"is_enemy_target_desire": true,
+				"is_friendly_target_desire": true
+			}
+		}],
+		"bonus_initiative_desires": []
+	}]
+}

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "the_hunger_human" .anim "transform"
+skill: .id "gourmand_mark" .anim "song"
+skill: .id "gourmand_tongue" .anim "tongue"

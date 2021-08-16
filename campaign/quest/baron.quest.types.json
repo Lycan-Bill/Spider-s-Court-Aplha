@@ -1,0 +1,19 @@
+{
+    "goals": [
+                {
+            
+            "id": "kill_baron_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "baron_B"
+                ],
+                "amount": 1
+           }
+        }
+	]
+}
+	

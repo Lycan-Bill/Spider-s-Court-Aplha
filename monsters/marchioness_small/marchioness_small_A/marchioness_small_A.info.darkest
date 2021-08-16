@@ -1,0 +1,16 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 40 .def 0% .prot 0 .spd 3 .stun_resist 100% .poison_resist 40% .bleed_resist 40% .debuff_resist 60% .move_resist 0%
+skill: .id "love_prayer" .type "melee" .atk 62.5% .dmg 0 0 .crit 12%  .effect "Marchioness Mark" "Marchioness Prayer Dmg" .launch 4321 .target
+skill: .id "wicked_love" .type "ranged" .atk 122.5% .dmg 0 0 .crit 14%  .effect "marchioness_control" "Fanatic Stress Big" .launch 4321 .target 1234 .is_knowledgeable False
+skill: .id "parasole_slap" .type "melee" .atk 122.9% .dmg 6 9 .crit 10% .effect .launch 4321 .target 1234
+skill: .id "spider_intervention" .type "melee" .atk 62.5% .dmg 0 0 .crit 12%  .effect "Marchioness Riposte" "Marchioness Block" .launch 4321 .target
+riposte_skill: .id "riposte_attack" .type "melee" .atk 102.5% .dmg 6 13 .crit 9%  .effect "Viscount Bleed" .launch 4321 .target 1234
+ 
+personality: .prefskill -1
+loot: .code "NONE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id marchioness
+death_class: .monster_class_id marchioness_medium_A .is_valid_on_bleed_dot True .is_valid_on_blight_dot True .is_valid_on_crit True
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

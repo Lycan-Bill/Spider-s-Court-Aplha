@@ -1,0 +1,66 @@
+{
+	"monster_brains": [{
+		"id": "baron_fool",
+		"skill_cooldowns": [{
+				"combat_skill_id": "fool_show_time",
+				"amount": 1000000
+			},
+			{
+				"combat_skill_id": "fool_bow",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "fool_taunt",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "fool_encourage",
+				"amount": 1
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+					"data": {
+						"base_chance": 100000.0,
+						"combat_skill_id": "fool_show_time"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "fool_bow"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "fool_taunt"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "fool_encourage"
+					}
+				}
+			],
+		"target_selection_desires": [{
+			"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				}
+			],
+		"bonus_initiative_desires": []
+	}]
+}

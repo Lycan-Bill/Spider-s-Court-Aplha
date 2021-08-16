@@ -1,0 +1,13 @@
+
+cardinal.sprite.wave_target.png
+size: 247,601
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood_wave
+  rotate: false
+  xy: 2, 2
+  size: 243, 597
+  orig: 243, 597
+  offset: 0, 0
+  index: -1

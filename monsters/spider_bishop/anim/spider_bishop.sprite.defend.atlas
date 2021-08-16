@@ -1,0 +1,20 @@
+
+spider_bishop.sprite.defend.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+spider_bishop_lineart_defend
+  rotate: true
+  xy: 2, 59
+  size: 759, 1210
+  orig: 759, 1210
+  offset: 0, 0
+  index: -1

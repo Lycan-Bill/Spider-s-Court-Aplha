@@ -1,0 +1,19 @@
+cardinal.sprite.dead.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+spider_bishop_corpse_color
+  rotate: false
+  xy: 2, 59
+  size: 737, 875
+  orig: 737, 875
+  offset: 0, 0
+  index: -1

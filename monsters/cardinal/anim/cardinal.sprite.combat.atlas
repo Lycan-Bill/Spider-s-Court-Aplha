@@ -1,0 +1,174 @@
+
+cardinal.sprite.combat.png
+size: 2036,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beast/Book Arm
+  rotate: false
+  xy: 590, 229
+  size: 242, 294
+  orig: 242, 294
+  offset: 0, 0
+  index: -1
+beast/HandCruzier
+  rotate: true
+  xy: 853, 31
+  size: 208, 593
+  orig: 208, 593
+  offset: 0, 0
+  index: -1
+beast/Head
+  rotate: true
+  xy: 1032, 245
+  size: 278, 258
+  orig: 278, 258
+  offset: 0, 0
+  index: -1
+beast/Lower left right eye
+  rotate: false
+  xy: 32, 15
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+beast/Mane
+  rotate: false
+  xy: 590, 12
+  size: 261, 215
+  orig: 261, 215
+  offset: 0, 0
+  index: -1
+beast/Shoulders
+  rotate: true
+  xy: 834, 241
+  size: 282, 196
+  orig: 282, 196
+  offset: 0, 0
+  index: -1
+beast/Torso
+  rotate: false
+  xy: 264, 155
+  size: 324, 368
+  orig: 324, 368
+  offset: 0, 0
+  index: -1
+beast/left arm
+  rotate: false
+  xy: 1647, 21
+  size: 190, 162
+  orig: 190, 162
+  offset: 0, 0
+  index: -1
+beast/lower left left
+  rotate: true
+  xy: 23, 2
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+beast/lower right left
+  rotate: false
+  xy: 62, 15
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+beast/lower right right eye'
+  rotate: true
+  xy: 16, 15
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+beast/uper left eye
+  rotate: false
+  xy: 2, 14
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+beast/uper right eye
+  rotate: true
+  xy: 47, 15
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+human/Book
+  rotate: false
+  xy: 1839, 22
+  size: 183, 161
+  orig: 183, 161
+  offset: 0, 0
+  index: -1
+human/Head
+  rotate: true
+  xy: 1448, 2
+  size: 181, 197
+  orig: 181, 197
+  offset: 0, 0
+  index: -1
+human/Pasted Layer
+  rotate: true
+  xy: 1448, 346
+  size: 177, 586
+  orig: 177, 586
+  offset: 0, 0
+  index: -1
+human/Shoulder
+  rotate: false
+  xy: 264, 11
+  size: 243, 142
+  orig: 243, 142
+  offset: 0, 0
+  index: -1
+human/Torso
+  rotate: false
+  xy: 2, 134
+  size: 260, 389
+  orig: 260, 389
+  offset: 0, 0
+  index: -1
+human/left arm
+  rotate: false
+  xy: 2, 32
+  size: 167, 100
+  orig: 167, 100
+  offset: 0, 0
+  index: -1
+human/left left eye
+  rotate: false
+  xy: 13, 2
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: -1
+human/left right eye
+  rotate: false
+  xy: 38, 2
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+human/right left eye
+  rotate: true
+  xy: 2, 2
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+human/right right eye
+  rotate: true
+  xy: 76, 16
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1448, 185
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

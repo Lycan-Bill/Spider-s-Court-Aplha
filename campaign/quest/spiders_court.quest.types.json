@@ -1,0 +1,60 @@
+{
+    "goals": [
+ 
+           {
+          "id": "kill_cardinal_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "cardinal_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_sommeilier_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "sommeilier_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "activate_sc_alter",
+            "type": "activate",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "curio_name": "crimson_alter",
+                "amount": 1
+            }
+        }
+        
+    ],
+    "town_progression_goal_ids": [
+      
+    ],
+    "types": [
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

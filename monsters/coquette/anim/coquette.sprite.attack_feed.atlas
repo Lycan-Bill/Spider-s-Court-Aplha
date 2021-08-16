@@ -1,0 +1,27 @@
+
+coquette.sprite.attack_feed.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 1912
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+coqutte
+  rotate: false
+  xy: 1, 1
+  size: 831, 1101
+  orig: 831, 1101
+  offset: 0, 0
+  index: -1
+coquette2
+  rotate: false
+  xy: 1, 1104
+  size: 878, 806
+  orig: 878, 806
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,268 @@
+{
+	"monster_brains": [{
+			"id": "sommeilier",
+			"skill_cooldowns": [{
+					"combat_skill_id": "taste3",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "taste1",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "taste2",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "imbibed_squat",
+					"amount": 3
+				},
+				{
+					"combat_skill_id": "drunken_lunge",
+					"amount": 1
+				},
+				{
+					"combat_skill_id": "festering_maw",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "neurotic_toxin",
+					"amount": 3
+
+				},
+				{
+					"combat_skill_id": "drink_anger",
+					"amount": 9999
+				},
+				{
+					"combat_skill_id": "drink_anger2",
+					"amount": 9999
+
+				},
+				{
+					"combat_skill_id": "drink_anger3",
+					"amount": 9999
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+					"type": "ally_alive_skill",
+					"data": {
+						"base_chance": 15.0,
+						"combat_skill_id": "taste2",
+						"ally_base_class_id": "body_emaciated"
+					}
+				},
+				{
+					"type": "ally_alive_skill",
+					"data": {
+						"base_chance": 15.0,
+						"combat_skill_id": "taste1",
+						"ally_base_class_id": "body_average"
+					}
+				},
+				{
+					"type": "ally_alive_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "taste3",
+						"ally_base_class_id": "body_bloated"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 13.0,
+						"combat_skill_id": "imbibed_squat"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 26.0,
+						"combat_skill_id": "drunken_lunge"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "festering_maw",
+                        			"ally_base_class_id": "body_emaciated"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "neurotic_toxin",
+                        			"ally_base_class_id": "body_emaciated"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "festering_maw",
+                        			"ally_base_class_id": "body_average"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "neurotic_toxin",
+                        			"ally_base_class_id": "body_average"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "festering_maw",
+                        			"ally_base_class_id": "body_bloated"
+					}
+				},
+				{
+					"type": "ally_dead_skill",
+					"data": {
+						"base_chance": 30.0,
+						"combat_skill_id": "neurotic_toxin",
+                        			"ally_base_class_id": "body_bloated"
+					}
+				}
+			],
+			"target_selection_desires": [{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": false
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "taste1",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "body_average",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "taste2",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "body_emaciated",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "taste3",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "body_bloated",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "imbibed_squat",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "drink_anger",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "drink_anger2",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "drink_anger3",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				}
+			],
+			"bonus_initiative_desires": [{
+				"type": "guaranteed",
+                    		"data": {
+                        	"is_round_start": true,
+                        	"is_round_in_progress": true,
+                        	"is_round_finish": false,
+                        	"is_pre_turn": true,
+                        	"is_post_turn": false,
+                        	"combat_skill_id_override": "drink_anger",
+				"is_cooldown_enabled": true,
+                        	"monsters_size_limit": 3
+                    }
+                },
+                {
+                    	"type": "guaranteed",
+                    		"data": {
+                        	"is_round_start": true,
+                        	"is_round_in_progress": true,
+                        	"is_round_finish": false,
+                        	"is_pre_turn": true,
+                        	"is_post_turn": false,
+                        	"combat_skill_id_override": "drink_anger2",
+				"is_cooldown_enabled": true,
+                        	"monsters_size_limit": 2
+		   }
+                },
+                {
+                    	"type": "guaranteed",
+                    		"data": {
+                        	"is_round_start": true,
+                        	"is_round_in_progress": true,
+                        	"is_round_finish": false,
+                        	"is_pre_turn": true,
+                        	"is_post_turn": false,
+                        	"combat_skill_id_override": "drink_anger3",
+				"is_cooldown_enabled": true,
+                        	"monsters_size_limit": 1
+		}
+			}]
+		}
+
+	]
+}

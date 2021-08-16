@@ -1,0 +1,202 @@
+
+concubine.sprite.combat.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer
+  rotate: false
+  xy: 2, 171
+  size: 1047, 851
+  orig: 1047, 851
+  offset: 0, 0
+  index: -1
+arm left 1
+  rotate: true
+  xy: 1250, 89
+  size: 32, 66
+  orig: 32, 66
+  offset: 0, 0
+  index: -1
+back left leg
+  rotate: true
+  xy: 1458, 106
+  size: 75, 91
+  orig: 75, 91
+  offset: 0, 0
+  index: -1
+beehive hair
+  rotate: false
+  xy: 1744, 478
+  size: 245, 223
+  orig: 245, 223
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 1051, 569
+  size: 409, 453
+  orig: 409, 453
+  offset: 0, 0
+  index: -1
+collar
+  rotate: false
+  xy: 1051, 246
+  size: 317, 321
+  orig: 317, 321
+  offset: 0, 0
+  index: -1
+dress front
+  rotate: false
+  xy: 1462, 586
+  size: 280, 436
+  orig: 280, 436
+  offset: 0, 0
+  index: -1
+dress shoulder puff 1
+  rotate: false
+  xy: 845, 44
+  size: 124, 125
+  orig: 124, 125
+  offset: 0, 0
+  index: -1
+dress shoulder puff 2
+  rotate: false
+  xy: 1606, 335
+  size: 98, 127
+  orig: 98, 127
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 1991, 470
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+front left leg
+  rotate: true
+  xy: 1051, 86
+  size: 158, 197
+  orig: 158, 197
+  offset: 0, 0
+  index: -1
+front right leg
+  rotate: true
+  xy: 528, 4
+  size: 165, 186
+  orig: 165, 186
+  offset: 0, 0
+  index: -1
+hair 1
+  rotate: true
+  xy: 192, 11
+  size: 101, 123
+  orig: 101, 123
+  offset: 0, 0
+  index: -1
+head1
+  rotate: false
+  xy: 1370, 331
+  size: 234, 236
+  orig: 234, 236
+  offset: 0, 0
+  index: -1
+left hand
+  rotate: false
+  xy: 1551, 116
+  size: 33, 65
+  orig: 33, 65
+  offset: 0, 0
+  index: -1
+left right leg
+  rotate: true
+  xy: 1370, 183
+  size: 146, 232
+  orig: 146, 232
+  offset: 0, 0
+  index: -1
+lower jaw
+  rotate: false
+  xy: 2, 32
+  size: 188, 80
+  orig: 188, 80
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 716, 35
+  size: 127, 134
+  orig: 127, 134
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: true
+  xy: 1744, 703
+  size: 319, 297
+  orig: 319, 297
+  offset: 0, 0
+  index: -1
+right sleeve
+  rotate: true
+  xy: 1364, 118
+  size: 63, 92
+  orig: 63, 92
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 114
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+sideburn
+  rotate: true
+  xy: 716, 2
+  size: 31, 94
+  orig: 31, 94
+  offset: 0, 0
+  index: -1
+sleeve left
+  rotate: true
+  xy: 845, 2
+  size: 40, 95
+  orig: 40, 95
+  offset: 0, 0
+  index: -1
+thingie 1
+  rotate: true
+  xy: 334, 13
+  size: 156, 192
+  orig: 156, 192
+  offset: 0, 0
+  index: -1
+thingie 2
+  rotate: false
+  xy: 1606, 464
+  size: 108, 120
+  orig: 108, 120
+  offset: 0, 0
+  index: -1
+thingie 3
+  rotate: false
+  xy: 1250, 123
+  size: 112, 121
+  orig: 112, 121
+  offset: 0, 0
+  index: -1
+thingie 4
+  rotate: false
+  xy: 1991, 510
+  size: 50, 191
+  orig: 50, 191
+  offset: 0, 0
+  index: -1
+upperjaw
+  rotate: true
+  xy: 971, 43
+  size: 126, 70
+  orig: 126, 70
+  offset: 0, 0
+  index: -1

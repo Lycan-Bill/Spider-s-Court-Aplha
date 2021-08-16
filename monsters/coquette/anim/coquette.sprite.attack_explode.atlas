@@ -1,0 +1,83 @@
+
+coquette.sprite.attack_explode.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 1160
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+courtesan/boom
+  rotate: false
+  xy: 1, 632
+  size: 496, 526
+  orig: 496, 526
+  offset: 0, 0
+  index: -1
+courtesan/body
+  rotate: false
+  xy: 1, 1
+  size: 722, 629
+  orig: 722, 629
+  offset: 0, 0
+  index: -1
+courtesan/tiny_bones
+  rotate: false
+  xy: 723, 1101
+  size: 129, 197
+  orig: 129, 197
+  offset: 0, 0
+  index: -1
+courtesan/bone
+  rotate: false
+  xy: 499, 881
+  size: 194, 192
+  orig: 194, 192
+  offset: 0, 0
+  index: -1
+courtesan/meatslab1
+  rotate: false
+  xy: 695, 941
+  size: 214, 158
+  orig: 214, 158
+  offset: 0, 0
+  index: -1
+courtesan/spine
+  rotate: false
+  xy: 725, 349
+  size: 174, 380
+  orig: 174, 380
+  offset: 0, 0
+  index: -1
+courtesan/foot
+  rotate: false
+  xy: 499, 632
+  size: 200, 247
+  orig: 200, 247
+  offset: 0, 0
+  index: -1
+courtesan/leg
+  rotate: false
+  xy: 725, 1
+  size: 244, 346
+  orig: 244, 346
+  offset: 0, 0
+  index: -1
+courtesan/knee
+  rotate: false
+  xy: 701, 731
+  size: 229, 208
+  orig: 229, 208
+  offset: 0, 0
+  index: -1
+courtesan/meatslab2
+  rotate: false
+  xy: 499, 1101
+  size: 222, 152
+  orig: 222, 152
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+the_blessed.sprite.consume_bug.png
+size: 772,564
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TheBlessedEating
+  rotate: true
+  xy: 2, 2
+  size: 560, 607
+  orig: 560, 607
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 611, 17
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

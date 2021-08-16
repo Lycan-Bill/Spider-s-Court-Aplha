@@ -1,0 +1,8 @@
+commonfx: .deathfx death_small
+skill: .id "love_prayer" .anim "combat"
+skill: .id "wicked_love" .anim "combat"
+skill: .id "parasole_slap" .anim "combat"
+skill: .id "spider_intervention" .anim "combat"
+
+riposte_skill: .id "riposte_attack" .anim "combat"
+defending_area_pos_offset: .offset 0 35

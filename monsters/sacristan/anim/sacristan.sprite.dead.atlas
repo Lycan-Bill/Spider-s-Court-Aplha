@@ -1,0 +1,20 @@
+
+sacristan.sprite.dead.png
+size: 393,554
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sacristan-_Corpse
+  rotate: true
+  xy: 2, 59
+  size: 493, 389
+  orig: 493, 389
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

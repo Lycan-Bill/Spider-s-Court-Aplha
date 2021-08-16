@@ -1,0 +1,20 @@
+
+gourmand.sprite.tongue.png
+size: 1821,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gourmand_tongue
+  rotate: false
+  xy: 2, 2
+  size: 1760, 1016
+  orig: 1760, 1016
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1764, 688
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

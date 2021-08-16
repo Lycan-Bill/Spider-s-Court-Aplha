@@ -1,0 +1,27 @@
+
+sacristan.sprite.defend.png
+size: 2089,757
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sacristan-Defend
+  rotate: true
+  xy: 2, 2
+  size: 753, 1013
+  orig: 753, 1013
+  offset: 0, 0
+  index: -1
+Sacristan-Defend2
+  rotate: true
+  xy: 1017, 2
+  size: 753, 1013
+  orig: 753, 1013
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2032, 425
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

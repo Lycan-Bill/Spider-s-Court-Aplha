@@ -1,0 +1,41 @@
+
+crimson_alter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+open
+  rotate: false
+  xy: 276, 1
+  size: 272, 570
+  orig: 272, 570
+  offset: 0, 0
+  index: -1
+active
+  rotate: false
+  xy: 1, 1
+  size: 273, 585
+  orig: 273, 585
+  offset: 0, 0
+  index: -1
+closed
+  rotate: false
+  xy: 550, 1
+  size: 272, 570
+  orig: 272, 570
+  offset: 0, 0
+  index: -1
+left_glow
+  rotate: false
+  xy: 824, 1
+  size: 91, 488
+  orig: 91, 488
+  offset: 0, 0
+  index: -1
+right_glow
+  rotate: false
+  xy: 824, 491
+  size: 83, 495
+  orig: 83, 495
+  offset: 0, 0
+  index: -1

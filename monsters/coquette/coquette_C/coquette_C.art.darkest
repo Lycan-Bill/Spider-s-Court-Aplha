@@ -1,0 +1,7 @@
+commonfx: .deathfx death_medium
+skill: .id "noble_decree" .anim "attack_decree"
+skill: .id "coquette_stun" .anim "combat"
+skill: .id "the_hunger_human" .anim "attack_feed"
+skill: .id "the_hunger_beast" .anim "attack_feed"
+skill: .id "coquette_guard" .anim "defend"
+skill: .id "coquette_explode" .anim "attack_explode" .reset_source_stance false .hide_performer_health true

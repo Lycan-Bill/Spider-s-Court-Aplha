@@ -1,0 +1,128 @@
+{
+	"monster_brains": [{
+			"id": "vidame",
+			"skill_cooldowns": [{
+					"combat_skill_id": "noble_edict",
+					"amount": 100
+				},
+				{
+					"combat_skill_id": "the_hunger_human",
+					"amount": 1
+				},
+				{
+					"combat_skill_id": "the_hunger_beast",
+					"amount": 4
+
+				},
+				{
+					"combat_skill_id": "aristocratic_assault",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "agriope_many_legs",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "vidame_rifle",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "high_born_sneer",
+					"amount": 1
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 100000.0,
+						"combat_skill_id": "noble_edict"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "high_born_sneer"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 10.0,
+						"combat_skill_id": "the_hunger_human",
+                        			"performer_health_ratio_min": 0.01,
+                       				 "performer_health_ratio_max": 0.5
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "the_hunger_human"
+					}
+				},
+				{
+				
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 10.0,
+						"combat_skill_id": "the_hunger_beast",
+                        			"performer_health_ratio_min": 0.01,
+                        			"performer_health_ratio_max": 0.5
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3.0,
+						"combat_skill_id": "the_hunger_beast"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "agriope_many_legs"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "aristocratic_assault"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "vidame_rifle"
+					}
+				}
+			],
+		"target_selection_desires": [{
+			"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				}
+			],
+		"bonus_initiative_desires": []
+	}]
+}

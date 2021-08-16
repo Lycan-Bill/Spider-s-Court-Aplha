@@ -1,0 +1,3 @@
+commonfx: .deathfx death_small
+skill: .id "marchioness_transform" .anim "combat"
+defending_area_pos_offset: .offset 0 35
