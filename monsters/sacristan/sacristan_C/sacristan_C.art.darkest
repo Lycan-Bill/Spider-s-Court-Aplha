@@ -1,5 +1,5 @@
 commonfx: .deathfx death_medium
-skill: .id "purge_the_impure" .anim "spit"
-skill: .id "purify" .anim "multi_poison" .targchestfx "blood_splatter"
-skill: .id "lustrate" .anim "multi_hit" .targchestfx "blood_splatter"
-skill: .id "sanctify" .anim "combat"
+skill: .id "purge_the_impure" .anim "attack_spit" .fx "attack_spit_fx"
+skill: .id "purify" .anim "multi_poison" .fx "multi_poison_fx" .targchestfx "blood_splatter"
+skill: .id "lustrate" .anim "multi_hit" .fx "multi_hit_fx" .targchestfx "blood_splatter"
+skill: .id "sanctify" .anim "attack_censer" .fx "attack_censer_fx"

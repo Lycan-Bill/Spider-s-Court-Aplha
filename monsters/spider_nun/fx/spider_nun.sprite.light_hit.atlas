@@ -1,0 +1,48 @@
+
+spider_nun.sprite.light_hit.png
+size: 1101,200
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0009_webdot1
+  rotate: false
+  xy: 1001, 101
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+spidernun_0010_webdot2
+  rotate: false
+  xy: 856, 48
+  size: 143, 150
+  orig: 143, 150
+  offset: 0, 0
+  index: -1
+spidernun_0011_web1
+  rotate: false
+  xy: 595, 3
+  size: 259, 195
+  orig: 259, 195
+  offset: 0, 0
+  index: -1
+spidernun_0013_web3
+  rotate: true
+  xy: 2, 2
+  size: 196, 591
+  orig: 196, 591
+  offset: 0, 0
+  index: -1
+spidernun_0014_spark1
+  rotate: true
+  xy: 856, 10
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+spidernun_0015_spark2
+  rotate: false
+  xy: 1001, 60
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1

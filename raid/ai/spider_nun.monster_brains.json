@@ -1,0 +1,139 @@
+{
+	"monster_brains": [{
+			"id": "spider_nun",
+			"skill_cooldowns": [{
+					"combat_skill_id": "nun_prayer",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "the_hunger_human",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "the_hunger_beast",
+					"amount": 3
+
+				},
+				{
+					"combat_skill_id": "nun_light",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "nun_shield",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "nun_venom",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "nun_zeal",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "nun_heretic",
+					"amount": 1
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_light"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_prayer"
+                    	}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_shield"
+                    	}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_venom"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_zeal"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 8.0,
+						"combat_skill_id": "nun_heretic"
+					}
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
+		"target_selection_desires": [{
+			"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				}
+			],
+		"bonus_initiative_desires": []
+	}]
+}

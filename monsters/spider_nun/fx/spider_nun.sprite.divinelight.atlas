@@ -1,0 +1,20 @@
+
+spider_nun.sprite.divinelight.png
+size: 744,703
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0018_armlight
+  rotate: false
+  xy: 2, 2
+  size: 554, 254
+  orig: 554, 254
+  offset: 0, 0
+  index: -1
+spidernun_0019_armshade
+  rotate: true
+  xy: 2, 258
+  size: 443, 740
+  orig: 443, 740
+  offset: 0, 0
+  index: -1

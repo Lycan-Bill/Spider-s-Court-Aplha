@@ -1,0 +1,20 @@
+
+bloody_butler.sprite.attack_bow.png
+size: 613,543
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 556, 211
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 552, 539
+  orig: 552, 539
+  offset: 0, 0
+  index: -1

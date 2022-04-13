@@ -1,25 +1,19 @@
+
 lord.sprite.attack_feed.png
-size: 1903,775
+size: 1025,877
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-attack_feed_beast
+Layer 3
   rotate: false
   xy: 2, 2
-  size: 960, 771
-  orig: 960, 771
-  offset: 0, 0
-  index: -1
-attack_feed_human
-  rotate: false
-  xy: 964, 38
-  size: 872, 735
-  orig: 872, 735
+  size: 956, 873
+  orig: 956, 873
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 1838, 416
+  xy: 960, 518
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

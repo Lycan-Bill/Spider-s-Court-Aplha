@@ -6,4 +6,5 @@ skill: .id "refined_palate" .anim "attack_tray" .fx "refined_palate" .targchestf
 skill: .id "choice_cut" .anim "attack_cleaver" .fx "choice_cut" .targchestfx "blood_splatter"
 skill: .id "gibbering_entourage" .anim "defend" .fx "gibbering_entourage" .can_display_performer_selection_after_turn false
 skill: .id "the_hunger_beast" .anim "attack_feed" .fx "the_hunger_beast" .targchestfx "blood_splatter"
-skill: .id "blood_drink" .anim "attack_serve" .fx "refined_palate" .targchestfx "refined_palate_target"
+skill: .id "blood_drink" .anim "attack_serve" .fx "refined_drink" .targchestfx "refined_palate_target"
+skill: .id "blood_thief" .anim "attack_shoot" .fx "attack_shoot"

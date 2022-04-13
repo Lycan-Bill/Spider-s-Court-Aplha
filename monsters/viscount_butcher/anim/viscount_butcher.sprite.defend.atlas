@@ -1,0 +1,19 @@
+viscount_butcher.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Butcher01
+  rotate: false
+  xy: 2, 59
+  size: 518, 588
+  orig: 518, 588
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

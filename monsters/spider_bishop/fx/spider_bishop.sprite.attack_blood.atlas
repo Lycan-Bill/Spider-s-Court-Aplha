@@ -1,0 +1,41 @@
+
+spider_bishop.sprite.attack_blood.png
+size: 1956,773
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodglow
+  rotate: false
+  xy: 1179, 14
+  size: 256, 188
+  orig: 256, 188
+  offset: 0, 0
+  index: -1
+bottleglow
+  rotate: true
+  xy: 1437, 2
+  size: 200, 201
+  orig: 200, 201
+  offset: 0, 0
+  index: -1
+eyeglow
+  rotate: false
+  xy: 1640, 86
+  size: 164, 116
+  orig: 164, 116
+  offset: 0, 0
+  index: -1
+healglow_1
+  rotate: false
+  xy: 1179, 204
+  size: 775, 567
+  orig: 775, 567
+  offset: 0, 0
+  index: -1
+healglow_2
+  rotate: false
+  xy: 2, 8
+  size: 1175, 763
+  orig: 1175, 763
+  offset: 0, 0
+  index: -1

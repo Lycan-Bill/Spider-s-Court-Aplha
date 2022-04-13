@@ -1,8 +1,0 @@
-{
-    "event_guid_overrides":
-    [
-        {"event_id": "event:/music/mus_battle_courtyard_hallway",                   "guid_override":"{379d6ecd-646b-46d5-97b0-a19b3ae215bf}"},
-	{"event_id": "event:/music/mus_battle_courtyard_room",                   "guid_override":"{85aa9d2d-7afb-4a9c-b188-b97fc820bcd3}"}
-		
-    ]
-}

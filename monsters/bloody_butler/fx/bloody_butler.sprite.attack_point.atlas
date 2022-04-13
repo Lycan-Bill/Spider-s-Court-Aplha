@@ -1,0 +1,41 @@
+
+bloody_butler.sprite.attack_point.png
+size: 990,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+badswirl_1
+  rotate: false
+  xy: 255, 174
+  size: 409, 171
+  orig: 409, 171
+  offset: 0, 0
+  index: -1
+badswirl_2
+  rotate: false
+  xy: 550, 2
+  size: 306, 130
+  orig: 306, 130
+  offset: 0, 0
+  index: -1
+flies_1
+  rotate: true
+  xy: 2, 17
+  size: 328, 251
+  orig: 328, 251
+  offset: 0, 0
+  index: -1
+flies_2
+  rotate: false
+  xy: 666, 134
+  size: 322, 211
+  orig: 322, 211
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 255, 9
+  size: 293, 163
+  orig: 293, 163
+  offset: 0, 0
+  index: -1

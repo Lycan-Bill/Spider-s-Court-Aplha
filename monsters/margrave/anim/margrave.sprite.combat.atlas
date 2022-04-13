@@ -1,0 +1,314 @@
+
+margrave.sprite.combat.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+margraveClear
+  rotate: true
+  xy: 1557, 365
+  size: 174, 333
+  orig: 174, 333
+  offset: 0, 0
+  index: -1
+margraveClear Copy
+  rotate: true
+  xy: 3593, 1698
+  size: 343, 385
+  orig: 343, 385
+  offset: 0, 0
+  index: -1
+margraveClear Copy 10
+  rotate: true
+  xy: 2487, 1219
+  size: 217, 364
+  orig: 217, 364
+  offset: 0, 0
+  index: -1
+margraveClear Copy 10_human
+  rotate: true
+  xy: 1885, 1280
+  size: 122, 553
+  orig: 122, 553
+  offset: 0, 0
+  index: -1
+margraveClear Copy 11
+  rotate: true
+  xy: 2853, 1348
+  size: 175, 381
+  orig: 175, 381
+  offset: 0, 0
+  index: -1
+margraveClear Copy 11_human
+  rotate: false
+  xy: 2487, 1438
+  size: 364, 286
+  orig: 364, 286
+  offset: 0, 0
+  index: -1
+margraveClear Copy 12
+  rotate: true
+  xy: 546, 219
+  size: 155, 220
+  orig: 155, 220
+  offset: 0, 0
+  index: -1
+margraveClear Copy 12_human
+  rotate: false
+  xy: 2262, 1020
+  size: 200, 258
+  orig: 200, 258
+  offset: 0, 0
+  index: -1
+margraveClear Copy 13_human
+  rotate: true
+  xy: 3887, 1420
+  size: 276, 138
+  orig: 276, 138
+  offset: 0, 0
+  index: -1
+margraveClear Copy 14
+  rotate: true
+  xy: 2853, 1525
+  size: 165, 464
+  orig: 165, 464
+  offset: 0, 0
+  index: -1
+margraveClear Copy 14_human
+  rotate: false
+  xy: 1927, 677
+  size: 270, 334
+  orig: 270, 334
+  offset: 0, 0
+  index: -1
+margraveClear Copy 15
+  rotate: true
+  xy: 1182, 654
+  size: 280, 743
+  orig: 280, 743
+  offset: 0, 0
+  index: -1
+margraveClear Copy 15_human
+  rotate: true
+  xy: 768, 246
+  size: 126, 211
+  orig: 126, 211
+  offset: 0, 0
+  index: -1
+margraveClear Copy 16
+  rotate: false
+  xy: 546, 376
+  size: 225, 785
+  orig: 225, 785
+  offset: 0, 0
+  index: -1
+margraveClear Copy 16_human
+  rotate: false
+  xy: 3319, 1392
+  size: 288, 298
+  orig: 288, 298
+  offset: 0, 0
+  index: -1
+margraveClear Copy 17
+  rotate: true
+  xy: 2853, 1153
+  size: 193, 357
+  orig: 193, 357
+  offset: 0, 0
+  index: -1
+margraveClear Copy 17_human
+  rotate: true
+  xy: 1172, 367
+  size: 172, 383
+  orig: 172, 383
+  offset: 0, 0
+  index: -1
+margraveClear Copy 18
+  rotate: true
+  xy: 2862, 1692
+  size: 349, 729
+  orig: 349, 729
+  offset: 0, 0
+  index: -1
+margraveClear Copy 18_human
+  rotate: true
+  xy: 773, 374
+  size: 181, 397
+  orig: 181, 397
+  offset: 0, 0
+  index: -1
+margraveClear Copy 19
+  rotate: true
+  xy: 2105, 1726
+  size: 315, 755
+  orig: 315, 755
+  offset: 0, 0
+  index: -1
+margraveClear Copy 2
+  rotate: false
+  xy: 2, 1163
+  size: 727, 878
+  orig: 727, 878
+  offset: 0, 0
+  index: -1
+margraveClear Copy 20
+  rotate: true
+  xy: 1244, 1741
+  size: 300, 859
+  orig: 300, 859
+  offset: 0, 0
+  index: -1
+margraveClear Copy 21
+  rotate: true
+  xy: 1182, 936
+  size: 285, 726
+  orig: 285, 726
+  offset: 0, 0
+  index: -1
+margraveClear Copy 22
+  rotate: true
+  xy: 1244, 1223
+  size: 516, 639
+  orig: 516, 639
+  offset: 0, 0
+  index: -1
+margraveClear Copy 2_human
+  rotate: false
+  xy: 2756, 1088
+  size: 80, 129
+  orig: 80, 129
+  offset: 0, 0
+  index: -1
+margraveClear Copy 3
+  rotate: false
+  xy: 731, 1226
+  size: 511, 815
+  orig: 511, 815
+  offset: 0, 0
+  index: -1
+margraveClear Copy 3_human
+  rotate: false
+  xy: 3980, 1827
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+margraveClear Copy 4
+  rotate: true
+  xy: 1910, 1013
+  size: 265, 350
+  orig: 265, 350
+  offset: 0, 0
+  index: -1
+margraveClear Copy 4_human
+  rotate: true
+  xy: 3236, 1449
+  size: 74, 81
+  orig: 74, 81
+  offset: 0, 0
+  index: -1
+margraveClear Copy 5
+  rotate: false
+  xy: 643, 99
+  size: 82, 118
+  orig: 82, 118
+  offset: 0, 0
+  index: -1
+margraveClear Copy 5_human
+  rotate: false
+  xy: 3609, 1429
+  size: 276, 267
+  orig: 276, 267
+  offset: 0, 0
+  index: -1
+margraveClear Copy 6
+  rotate: false
+  xy: 3980, 1918
+  size: 101, 123
+  orig: 101, 123
+  offset: 0, 0
+  index: -1
+margraveClear Copy 6_human
+  rotate: true
+  xy: 2, 67
+  size: 235, 514
+  orig: 235, 514
+  offset: 0, 0
+  index: -1
+margraveClear Copy 7
+  rotate: true
+  xy: 1348, 240
+  size: 125, 162
+  orig: 125, 162
+  offset: 0, 0
+  index: -1
+margraveClear Copy 7_human
+  rotate: false
+  xy: 773, 557
+  size: 407, 667
+  orig: 407, 667
+  offset: 0, 0
+  index: -1
+margraveClear Copy 8
+  rotate: true
+  xy: 1170, 220
+  size: 145, 176
+  orig: 145, 176
+  offset: 0, 0
+  index: -1
+margraveClear Copy 8_human
+  rotate: true
+  xy: 981, 234
+  size: 138, 187
+  orig: 138, 187
+  offset: 0, 0
+  index: -1
+margraveClear Copy 9
+  rotate: false
+  xy: 1885, 1404
+  size: 600, 320
+  orig: 600, 320
+  offset: 0, 0
+  index: -1
+margraveClear Copy 9_human
+  rotate: false
+  xy: 518, 73
+  size: 123, 144
+  orig: 123, 144
+  offset: 0, 0
+  index: -1
+margraveClear Copy_human
+  rotate: true
+  xy: 1182, 541
+  size: 111, 691
+  orig: 111, 691
+  offset: 0, 0
+  index: -1
+margraveClear300
+  rotate: true
+  xy: 2, 304
+  size: 857, 542
+  orig: 857, 542
+  offset: 0, 0
+  index: -1
+margraveClear_human
+  rotate: true
+  xy: 2464, 1053
+  size: 164, 290
+  orig: 164, 290
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+shadow_human
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

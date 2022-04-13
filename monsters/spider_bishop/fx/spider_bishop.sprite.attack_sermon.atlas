@@ -1,0 +1,34 @@
+
+spider_bishop.sprite.attack_sermon.png
+size: 594,1234
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_1
+  rotate: true
+  xy: 2, 538
+  size: 694, 580
+  orig: 694, 580
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: false
+  xy: 288, 209
+  size: 244, 327
+  orig: 244, 327
+  offset: 0, 0
+  index: -1
+glow_3
+  rotate: true
+  xy: 288, 114
+  size: 93, 304
+  orig: 93, 304
+  offset: 0, 0
+  index: -1
+halo
+  rotate: true
+  xy: 2, 2
+  size: 534, 284
+  orig: 534, 284
+  offset: 0, 0
+  index: -1

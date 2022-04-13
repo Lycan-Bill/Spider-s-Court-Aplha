@@ -1,0 +1,27 @@
+
+vidame.sprite.attack_feed.png
+size: 1805,713
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 924, 67
+  size: 879, 644
+  orig: 879, 644
+  offset: 0, 0
+  index: -1
+Layer_beast
+  rotate: false
+  xy: 2, 13
+  size: 920, 698
+  orig: 920, 698
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 924, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

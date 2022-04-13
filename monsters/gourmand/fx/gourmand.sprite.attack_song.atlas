@@ -1,0 +1,55 @@
+
+gourmand.sprite.attack_song.png
+size: 953,412
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 18
+  size: 572, 392
+  orig: 572, 392
+  offset: 0, 0
+  index: -1
+note_1
+  rotate: false
+  xy: 576, 12
+  size: 138, 165
+  orig: 138, 165
+  offset: 0, 0
+  index: -1
+note_1_glow
+  rotate: true
+  xy: 716, 77
+  size: 100, 129
+  orig: 100, 129
+  offset: 0, 0
+  index: -1
+note_2
+  rotate: false
+  xy: 852, 8
+  size: 99, 172
+  orig: 99, 172
+  offset: 0, 0
+  index: -1
+note_2_glow
+  rotate: true
+  xy: 716, 2
+  size: 73, 111
+  orig: 73, 111
+  offset: 0, 0
+  index: -1
+note_3
+  rotate: true
+  xy: 576, 179
+  size: 231, 274
+  orig: 231, 274
+  offset: 0, 0
+  index: -1
+note_3_glow
+  rotate: false
+  xy: 852, 182
+  size: 99, 228
+  orig: 99, 228
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+lord.sprite.attack_shoot.png
+size: 1581,333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bullet1
+  rotate: false
+  xy: 1334, 179
+  size: 124, 152
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+bullet2
+  rotate: false
+  xy: 1460, 189
+  size: 117, 142
+  orig: 117, 142
+  offset: 0, 0
+  index: -1
+bullet3
+  rotate: false
+  xy: 1201, 7
+  size: 137, 146
+  orig: 137, 146
+  offset: 0, 0
+  index: -1
+eye_glow
+  rotate: true
+  xy: 620, 16
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+smoke1
+  rotate: false
+  xy: 550, 42
+  size: 410, 289
+  orig: 410, 289
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: true
+  xy: 962, 37
+  size: 294, 237
+  orig: 294, 237
+  offset: 0, 0
+  index: -1
+sparks1
+  rotate: false
+  xy: 550, 5
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1
+sparks3
+  rotate: false
+  xy: 1201, 155
+  size: 131, 176
+  orig: 131, 176
+  offset: 0, 0
+  index: -1
+sparks4
+  rotate: true
+  xy: 1460, 49
+  size: 138, 119
+  orig: 138, 119
+  offset: 0, 0
+  index: -1
+weapon_glow
+  rotate: false
+  xy: 2, 2
+  size: 546, 329
+  orig: 546, 329
+  offset: 0, 0
+  index: -1

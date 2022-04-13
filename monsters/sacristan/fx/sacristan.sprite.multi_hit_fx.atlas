@@ -1,0 +1,34 @@
+
+sacristan.sprite.multi_hit_fx.png
+size: 903,302
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_bug
+  rotate: false
+  xy: 2, 7
+  size: 384, 293
+  orig: 384, 293
+  offset: 0, 0
+  index: -1
+glow_spikes
+  rotate: true
+  xy: 388, 2
+  size: 142, 345
+  orig: 142, 345
+  offset: 0, 0
+  index: -1
+glow_weapon
+  rotate: true
+  xy: 388, 146
+  size: 154, 407
+  orig: 154, 407
+  offset: 0, 0
+  index: -1
+swish
+  rotate: false
+  xy: 797, 45
+  size: 104, 255
+  orig: 104, 255
+  offset: 0, 0
+  index: -1

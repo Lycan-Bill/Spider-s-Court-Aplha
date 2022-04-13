@@ -1,0 +1,27 @@
+
+gourmand.sprite.attack_roll.png
+size: 1005,684
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_1
+  rotate: true
+  xy: 2, 2
+  size: 680, 787
+  orig: 680, 787
+  offset: 0, 0
+  index: -1
+shock_1
+  rotate: true
+  xy: 791, 65
+  size: 287, 186
+  orig: 287, 186
+  offset: 0, 0
+  index: -1
+shock_2
+  rotate: false
+  xy: 791, 354
+  size: 212, 328
+  orig: 212, 328
+  offset: 0, 0
+  index: -1

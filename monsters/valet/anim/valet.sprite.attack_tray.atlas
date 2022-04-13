@@ -1,27 +1,34 @@
 
 valet.sprite.attack_tray.png
-size: 864,554
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-attack_tray_body
-  rotate: false
+Layer 1_tray
+  rotate: true
   xy: 2, 2
-  size: 559, 550
-  orig: 559, 550
+  size: 502, 550
+  orig: 502, 550
+  offset: 0, 0
+  index: -1
+Wings_tray
+  rotate: true
+  xy: 554, 270
+  size: 234, 369
+  orig: 234, 369
   offset: 0, 0
   index: -1
 attack_tray_wings
-  rotate: true
-  xy: 563, 183
+  rotate: false
+  xy: 554, 34
   size: 369, 234
   orig: 369, 234
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 799, 195
-  size: 357, 63
-  orig: 357, 63
+  rotate: false
+  xy: 925, 147
+  size: 63, 357
+  orig: 63, 357
   offset: 0, 0
   index: -1

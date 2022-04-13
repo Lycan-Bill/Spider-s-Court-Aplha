@@ -1,0 +1,48 @@
+
+cardinal.sprite.attack_blood.png
+size: 1307,633
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blooddroplets1
+  rotate: true
+  xy: 788, 5
+  size: 93, 130
+  orig: 93, 130
+  offset: 0, 0
+  index: -1
+blooddroplets2
+  rotate: true
+  xy: 1020, 36
+  size: 62, 88
+  orig: 62, 88
+  offset: 0, 0
+  index: -1
+blooddroplets3
+  rotate: true
+  xy: 920, 21
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+wave1
+  rotate: true
+  xy: 2, 2
+  size: 629, 784
+  orig: 629, 784
+  offset: 0, 0
+  index: -1
+wave2
+  rotate: false
+  xy: 788, 281
+  size: 517, 350
+  orig: 517, 350
+  offset: 0, 0
+  index: -1
+wave3
+  rotate: false
+  xy: 788, 100
+  size: 483, 179
+  orig: 483, 179
+  offset: 0, 0
+  index: -1

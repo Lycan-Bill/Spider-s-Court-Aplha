@@ -282,129 +282,31 @@
 			"skill_selection_desires": [
 
 				{
-					"type": "ally_alive_skill",
+					"type": "specific_skill",
 					"data": {
-						"base_chance": 1000.0,
-						"combat_skill_id": "sc_first_course",
-						"ally_base_class_id": "viscount",
-						"performing_turn": 1
-					}
-				},
-				{
-					"type": "ally_alive_skill",
-					"data": {
-						"base_chance": 1000.0,
-						"combat_skill_id": "sc_second_course",
-						"ally_base_class_id": "viscount",
-						"performing_turn": 2
-					}
-				},
-				{
-					"type": "ally_alive_skill",
-					"data": {
-						"base_chance": 1000.0,
-						"combat_skill_id": "sc_third_course",
-						"ally_base_class_id": "viscount",
-						"performing_turn": 3
+						"base_chance": 10.0,
+						"combat_skill_id": "chef_soup"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
 						"base_chance": 10.0,
-						"combat_skill_id": "sc_pin_smack"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 0.000001,
-						"combat_skill_id": "sc_first_course"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 0.000001,
-						"combat_skill_id": "sc_second_course"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 0.000001,
-						"combat_skill_id": "sc_third_course"
-					}
-				},
-				{
-					"type": "performing_turn_skill",
-					"data": {
-						"base_chance": 10000000.0,
-						"combat_skill_id": "sc_first_course",
-						"performing_turn": 1
-					}
-				},
-				{
-					"type": "performing_turn_skill",
-					"data": {
-						"base_chance": 10000000.0,
-						"combat_skill_id": "sc_second_course",
-						"performing_turn": 2
-					}
-				},
-				{
-					"type": "performing_turn_skill",
-					"data": {
-						"base_chance": 10000000.0,
-						"combat_skill_id": "sc_third_course",
-						"performing_turn": 3
+						"combat_skill_id": "chef_feast"
+
 					}
 				}
 			],
 			"target_selection_desires": [{
-					"type": "ally_class_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "sc_first_course",
-						"is_exclusive_desire": false,
-						"ally_base_class_id": "viscount",
-						"is_enemy_target_desire": false,
-						"is_friendly_target_desire": true
-					}
-				},
-				{
-					"type": "ally_class_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "sc_second_course",
-						"is_exclusive_desire": false,
-						"ally_base_class_id": "viscount",
-						"is_enemy_target_desire": false,
-						"is_friendly_target_desire": true
-					}
-				},
-				{
-					"type": "ally_class_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "sc_third_course",
-						"is_exclusive_desire": false,
-						"ally_base_class_id": "viscount",
-						"is_enemy_target_desire": false,
-						"is_friendly_target_desire": true
-					}
-				},
-				{
-					"type": "random_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "",
-						"is_exclusive_desire": false,
-						"is_enemy_target_desire": true,
-						"is_friendly_target_desire": false
-					}
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
 				}
-			],
+			}],
 			"bonus_initiative_desires": []
 		},
 		{
@@ -742,11 +644,37 @@
 			"bonus_initiative_desires": []
 		},
 		{
-			"id": "gourmand_D",
+			"id": "gourmand",
 			"skill_cooldowns": [{
 				"combat_skill_id": "the_hunger_human",
 				"amount": 1
-			}],
+			},
+				{
+					"combat_skill_id": "gourmand_mark",
+					"amount": 2
+
+				},
+				{
+					"combat_skill_id": "gourmand_flee",
+					"amount": 2
+
+				},
+				{
+					"combat_skill_id": "gourmand_vomit",
+					"amount": 2
+
+				},
+				{
+					"combat_skill_id": "gourmand_tongue",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "gourmand_roll",
+					"amount": 3
+
+				}
+			],
 			"skill_selection_desires": [{
 					"type": "random_skill",
 					"data": {
@@ -768,6 +696,34 @@
 						"base_chance": 2.0,
 						"combat_skill_id": "gourmand_mark"
 					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "gourmand_flee"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "gourmand_roll"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 2.0,
+						"combat_skill_id": "gourmand_vomit"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 2.0,
+						"combat_skill_id": "gourmand_tongue"
+					}
 				}
 			],
 			"target_selection_desires": [{
@@ -777,7 +733,7 @@
 					"specific_combat_skill_id": "",
 					"is_exclusive_desire": false,
 					"is_enemy_target_desire": true,
-					"is_friendly_target_desire": false
+					"is_friendly_target_desire": true
 
 				}
 			}],
@@ -860,6 +816,30 @@
 					}
 				}
 			],
+
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "viscount_butcher",
+			"skill_cooldowns": [],
+			"skill_selection_desires": [{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 3.0,
+					"combat_skill_id": "VB_slice"
+
+				}
+			}],
+			"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			}],
 			"bonus_initiative_desires": []
 		},
 		{
@@ -869,27 +849,26 @@
 					"amount": 1
 				},
 				{
-				
+
 					"combat_skill_id": "the_hunger_beast",
-					"amount": 2
+					"amount": 4
 				},
 				{
-				
+
 					"combat_skill_id": "the_hunger_human",
-					"amount": 2
+					"amount": 4
 				},
 				{
 					"combat_skill_id": "refined_palate",
-					"amount": 2
-				},
-				{
-				
-					"combat_skill_id": "gibbering_entourage",
-					"amount": 1
+					"amount": 3
 				},
 				{
 					"combat_skill_id": "blood_drink",
-					"amount": 4
+					"amount": 3
+				},
+				{
+					"combat_skill_id": "blood_thief",
+					"amount": 2
 				}
 			],
 			"skill_selection_desires": [{
@@ -897,14 +876,16 @@
 					"data": {
 						"base_chance": 4.0,
 						"combat_skill_id": "enraging_slight"
-					
+
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
 						"base_chance": 1.0,
-						"combat_skill_id": "the_hunger_human"
+						"combat_skill_id": "the_hunger_human",
+						"performer_health_ratio_min": 0.01,
+						"performer_health_ratio_max": 0.33
 					}
 				},
 				{
@@ -926,7 +907,15 @@
 					"data": {
 						"base_chance": 2.0,
 						"combat_skill_id": "choice_cut"
-					
+
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3.0,
+						"combat_skill_id": "blood_thief"
+
 					}
 				},
 				{
@@ -950,8 +939,8 @@
 				{
 					"type": "marked_target",
 					"data": {
-						"base_chance": 6.0,
-						"specific_combat_skill_id": "",
+						"base_chance": 12.0,
+						"specific_combat_skill_id": "blood_thief",
 						"is_exclusive_desire": false,
 						"is_enemy_target_desire": true,
 						"is_friendly_target_desire": false
@@ -1006,35 +995,34 @@
 						"is_friendly_target_desire": true
 
 					}
-                }
-            ],
-            "bonus_initiative_desires": []
-        },
-        {
-            "id": "default_A",
-            "skill_cooldowns": [],
-            "skill_selection_desires": [
-                {
-                    "type": "preferred_skill",
-                    "data": {
-                        "base_chance": 1.0
-                    }
-                },
-                {
-                    "type": "random_skill",
-                    "data": {
-                        "base_chance": 1.0
-                    }
-                },
-                {
-                    "type": "heal_skill",
-                    "data": {
-                        "base_chance": 100.0,
-                        "hp_ratio_threshold": 0.5
-                    }
-                }
-            ],
-            "target_selection_desires": []
+				}
+			],
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "default_A",
+			"skill_cooldowns": [],
+			"skill_selection_desires": [{
+					"type": "preferred_skill",
+					"data": {
+						"base_chance": 1.0
+					}
+				},
+				{
+					"type": "random_skill",
+					"data": {
+						"base_chance": 1.0
+					}
+				},
+				{
+					"type": "heal_skill",
+					"data": {
+						"base_chance": 100.0,
+						"hp_ratio_threshold": 0.5
+					}
+				}
+			],
+			"target_selection_desires": []
 		},
 		{
 			"id": "bloody_butler",
@@ -1151,15 +1139,15 @@
 					}
 				},
 				{
-                    "type": "random_target",
-                    "data": {
-                        "base_chance": 1.0,
-                        "specific_combat_skill_id": "",
-                        "is_exclusive_desire": false,
-                        "is_enemy_target_desire": false,
-                        "is_friendly_target_desire": true
-                    }
-                },
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
 				{
 					"type": "health_target",
 					"data": {
@@ -1187,7 +1175,7 @@
 					"ally_count_max": 3,
 					"is_cooldown_enabled": true,
 					"ignore_if_stun": true
-		}
+				}
 			}]
 		}
 

@@ -1,0 +1,20 @@
+
+bloody_butler.sprite.attack_hit.png
+size: 642,450
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+butler_hit/10
+  rotate: true
+  xy: 585, 118
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1
+butler_hit/Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 446, 581
+  orig: 446, 581
+  offset: 0, 0
+  index: -1

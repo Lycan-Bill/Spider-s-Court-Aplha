@@ -1,0 +1,27 @@
+
+viscount.sprite.attack_thirst.png
+size: 6000,6000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thirst
+  rotate: false
+  xy: 2, 1165
+  size: 2960, 3644
+  orig: 2960, 3644
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2964, 4746
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+thirst_beast
+  rotate: false
+  xy: 2, 2
+  size: 1350, 1161
+  orig: 1350, 1161
+  offset: 0, 0
+  index: -1

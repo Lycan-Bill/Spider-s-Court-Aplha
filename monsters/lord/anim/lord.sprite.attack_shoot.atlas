@@ -1,0 +1,34 @@
+
+lord.sprite.attack_shoot.png
+size: 927,778
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 9
+  rotate: true
+  xy: 2, 2
+  size: 774, 858
+  orig: 774, 858
+  offset: 0, 0
+  index: -1
+eye_glow
+  rotate: false
+  xy: 862, 336
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 862, 419
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+sparks1
+  rotate: true
+  xy: 862, 349
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1

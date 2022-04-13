@@ -1,0 +1,20 @@
+
+viscount.sprite.attack_spice.png
+size: 2207,2012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 2142, 1653
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+spices
+  rotate: true
+  xy: 2, 2
+  size: 2008, 2138
+  orig: 2008, 2138
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+gourmand.sprite.attack_feed.png
+size: 1113,760
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abglow
+  rotate: true
+  xy: 874, 28
+  size: 217, 99
+  orig: 217, 99
+  offset: 0, 0
+  index: -1
+bloodspittle_1
+  rotate: false
+  xy: 874, 247
+  size: 206, 220
+  orig: 206, 220
+  offset: 0, 0
+  index: -1
+bloodspittle_2
+  rotate: true
+  xy: 874, 469
+  size: 289, 237
+  orig: 289, 237
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2, 2
+  size: 756, 870
+  orig: 756, 870
+  offset: 0, 0
+  index: -1

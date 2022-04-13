@@ -1,0 +1,62 @@
+{
+    "goals": [
+ 
+           {
+            "id": "kill_viscount_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "viscount_C"
+                ],
+                "amount": 1
+            }
+        }
+     
+    ],
+    "town_progression_goal_ids": [
+      
+    ],
+    "types": [
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+         {
+            "id": "farm_bloodcrate",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        [
+                            "gather_bloodcrate"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kill_statue",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        [
+                            "kill_statue_C"
+                        ]
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

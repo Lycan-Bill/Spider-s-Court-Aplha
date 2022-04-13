@@ -1,0 +1,20 @@
+
+cardinal.sprite.attack_blood.png
+size: 691,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 526, 548
+  orig: 526, 548
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 530, 5
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

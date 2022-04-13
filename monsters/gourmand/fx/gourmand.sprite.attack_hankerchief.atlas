@@ -1,0 +1,34 @@
+
+gourmand.sprite.attack_hankerchief.png
+size: 582,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 2
+  size: 319, 238
+  orig: 319, 238
+  offset: 0, 0
+  index: -1
+meatchunks_1
+  rotate: true
+  xy: 425, 65
+  size: 89, 138
+  orig: 89, 138
+  offset: 0, 0
+  index: -1
+meatchunks_2
+  rotate: true
+  xy: 323, 156
+  size: 84, 257
+  orig: 84, 257
+  offset: 0, 0
+  index: -1
+meatchunks_3
+  rotate: false
+  xy: 323, 25
+  size: 100, 129
+  orig: 100, 129
+  offset: 0, 0
+  index: -1

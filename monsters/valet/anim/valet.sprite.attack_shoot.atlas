@@ -1,0 +1,20 @@
+
+valet.sprite.attack_shoot.png
+size: 711,574
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 646, 215
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+valet_shoot/Layer 8
+  rotate: false
+  xy: 2, 2
+  size: 642, 570
+  orig: 642, 570
+  offset: 0, 0
+  index: -1

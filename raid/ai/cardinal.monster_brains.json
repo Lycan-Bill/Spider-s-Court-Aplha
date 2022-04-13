@@ -1,132 +1,283 @@
 {
 	"monster_brains": [{
-			"id": "cardinal",
-			"skill_cooldowns": [{
-					"combat_skill_id": "blood_wave",
-					"amount": 1
-				},
-				{
-					"combat_skill_id": "prayer_to_blood",
-					"amount": 2
-				},
-				{
-					"combat_skill_id": "the_hunger_human",
-					"amount": 8000
-				},
-				{
-					"combat_skill_id": "the_hunger_beast",
-					"amount": 1
-				},
-				{
-					"combat_skill_id": "cardinal_heresy",
-					"amount": 1
-				},
-				{
+		"id": "cardinal",
+		"skill_cooldowns": [{
+				"combat_skill_id": "blood_wave",
+				"amount": 1000
+			},
+			{
+				"combat_skill_id": "prayer_to_blood",
+				"amount": 2
+			},
+			{
+				"combat_skill_id": "the_hunger_human",
+				"amount": 4
+			},
+			{
+				"combat_skill_id": "the_hunger_beast",
+				"amount": 3
+			},
+			{
+				"combat_skill_id": "cardinal_heresy",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "blood_salvation",
+				"amount": 5
+
+			},
+			{
+				"combat_skill_id": "heed_faithful",
+				"amount": 100
+
+			},
+			{
+				"combat_skill_id": "transform_calm",
+				"amount": 4
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 10,
+					"monsters_size_min": 1,
+					"monsters_size_max": 3,
+					"control_count_min": 0,
+					"control_count_max": 0,
 					"combat_skill_id": "blood_salvation",
-					"amount": 1
-
-				},
-				{
-					"combat_skill_id": "heed_faithful",
-					"amount": 100
+					"non_deaths_door_heroes_min": 1,
+					"heroes_min": 2
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 20000,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 4,
+					"combat_skill_id": "heed_faithful"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "cardinal_heresy"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 5,
+					"combat_skill_id": "transform_calm"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "prayer_to_blood"
 
 				}
-			],
-			"skill_selection_desires": [
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 9,
+					"combat_skill_id": "the_hunger_beast"
 
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 10,
-						"monsters_size_min": 1,
-						"monsters_size_max": 3,
-						"control_count_min": 0,
-						"control_count_max": 0,
-						"combat_skill_id": "blood_salvation",
-						"non_deaths_door_heroes_min": 1,
-						"heroes_min": 2
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 20000,
-						"monsters_min": 1,
-						"monsters_max": 1,
-						"monsters_size_min": 1,
-						"monsters_size_max": 4,
-						"combat_skill_id": "heed_faithful"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 1,
-						"combat_skill_id": "cardinal_heresy"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 1,
-						"combat_skill_id": "prayer_to_blood"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 1,
-						"combat_skill_id": "blood_wave"
-
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 1,
-						"combat_skill_id": "the_hunger_beast"
-
-					}
-				},
-				{
-					"type": "ally_dead_skill",
-					"data": {
-						"base_chance": 30.0,
-						"combat_skill_id": "the_hunger_human",
-                        			"ally_base_class_id": "spider_bishop"
-					}
-				},
-				{
-					"type": "ally_dead_skill",
-					"data": {
-						"base_chance": 30.0,
-						"combat_skill_id": "the_hunger_human",
-                        			"ally_base_class_id": "sacristan"
-					}
 				}
-			],
-			"target_selection_desires": [{
-					"type": "random_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "blood_salvation",
-						"can_target_deaths_door": false,
-						"can_target_last_hero": false,
-						"is_exclusive_desire": false,
-						"is_enemy_target_desire": true,
-						"is_friendly_target_desire": false
-					}
-				},
-				{
-					"type": "random_target",
-					"data": {
-						"base_chance": 1.0,
-						"specific_combat_skill_id": "",
-						"is_exclusive_desire": false,
-						"is_enemy_target_desire": true,
-						"is_friendly_target_desire": true
+			},
+			{
+				"type": "ally_dead_skill",
+				"data": {
+					"base_chance": 30.0,
+					"combat_skill_id": "the_hunger_human",
+					"ally_base_class_id": "spider_bishop"
+				}
+			},
+			{
+				"type": "ally_dead_skill",
+				"data": {
+					"base_chance": 30.0,
+					"combat_skill_id": "the_hunger_human",
+					"ally_base_class_id": "sacristan"
+				}
+			}
+		],
+		"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "blood_salvation",
+					"can_target_deaths_door": false,
+					"can_target_last_hero": false,
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			},
+			{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
 
-					}
+				}
+			}
+		],
+		"bonus_initiative_desires": [{
+			"type": "hp_ratio_threshold",
+			"data": {
+				"combat_skill_id_override": "blood_wave",
+				"is_round_start": false,
+				"is_round_in_progress": true,
+				"is_round_finish": true,
+				"is_pre_turn": true,
+				"is_post_turn": true,
+				"health_ratio_threshold": 0.5,
+				"is_under_threshold": true
+			}
+				}
+			]
+		},
+		{
+			"id": "cardinal_D",
+			"skill_cooldowns": [{
+				"combat_skill_id": "prayer_to_blood",
+				"amount": 2
+			},
+			{
+				"combat_skill_id": "the_hunger_human",
+				"amount": 4
+			},
+			{
+				"combat_skill_id": "the_hunger_beast",
+				"amount": 3
+			},
+			{
+				"combat_skill_id": "cardinal_heresy",
+				"amount": 1
+			},
+			{
+				"combat_skill_id": "blood_salvation",
+				"amount": 5
+
+			},
+			{
+				"combat_skill_id": "heed_faithful",
+				"amount": 100
+
+			},
+			{
+				"combat_skill_id": "transform_calm",
+				"amount": 2
+
+			}
+		],
+		"skill_selection_desires": [
+
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 10,
+					"monsters_size_min": 1,
+					"monsters_size_max": 3,
+					"control_count_min": 0,
+					"control_count_max": 0,
+					"combat_skill_id": "blood_salvation",
+					"non_deaths_door_heroes_min": 1,
+					"heroes_min": 2
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 20000,
+					"monsters_min": 1,
+					"monsters_max": 1,
+					"monsters_size_min": 1,
+					"monsters_size_max": 4,
+					"combat_skill_id": "heed_faithful"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "cardinal_heresy"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 5,
+					"combat_skill_id": "transform_calm"
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1,
+					"combat_skill_id": "prayer_to_blood"
+
+				}
+			},
+			{
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 9,
+					"combat_skill_id": "the_hunger_beast"
+
+				}
+			},
+			{
+				"type": "ally_dead_skill",
+				"data": {
+					"base_chance": 30.0,
+					"combat_skill_id": "the_hunger_human",
+					"ally_base_class_id": "spider_bishop"
+				}
+			},
+			{
+				"type": "ally_dead_skill",
+				"data": {
+					"base_chance": 30.0,
+					"combat_skill_id": "the_hunger_human",
+					"ally_base_class_id": "sacristan"
+				}
+			}
+		],
+		"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "blood_salvation",
+					"can_target_deaths_door": false,
+					"can_target_last_hero": false,
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+			},
+			{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
+
+				}
 		}],
 		"bonus_initiative_desires": []
 	}]

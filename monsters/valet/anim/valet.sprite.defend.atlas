@@ -1,34 +1,48 @@
 
 valet.sprite.defend.png
-size: 1004,424
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 defend_beast_body
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 2, 67
   size: 420, 425
   orig: 420, 425
   offset: 0, 0
   index: -1
 defend_beast_wings
   rotate: true
-  xy: 754, 116
+  xy: 749, 186
   size: 306, 183
   orig: 306, 183
   offset: 0, 0
   index: -1
 defend_human
   rotate: false
-  xy: 429, 3
+  xy: 424, 73
   size: 323, 419
   orig: 323, 419
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 939, 65
+  rotate: false
+  xy: 2, 2
   size: 357, 63
   orig: 357, 63
+  offset: 0, 0
+  index: -1
+wigge_beast
+  rotate: true
+  xy: 749, 22
+  size: 162, 127
+  orig: 162, 127
+  offset: 0, 0
+  index: -1
+wigge_human
+  rotate: true
+  xy: 878, 65
+  size: 119, 139
+  orig: 119, 139
   offset: 0, 0
   index: -1

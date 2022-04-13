@@ -9,6 +9,21 @@
 					"combat_skill_id": "the_hunger_beast",
 					"amount": 3
 
+				},
+				{
+					"combat_skill_id": "the_hunger_human",
+					"amount": 3
+
+				},
+				{
+					"combat_skill_id": "coquette_fan",
+					"amount": 3
+
+				},
+				{
+					"combat_skill_id": "coquette_guard",
+					"amount": 3
+
 				}
 			],
 			"skill_selection_desires": [{
@@ -27,14 +42,14 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 12.0,
+						"base_chance": 2.0,
 						"combat_skill_id": "coquette_fan"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 12.0,
+						"base_chance": 2.0,
 						"combat_skill_id": "coquette_guard",
 						"monsters_min": 2,
 						"monsters_max": 4,
@@ -45,50 +60,50 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 12.0,
+						"base_chance": 2.0,
 						"combat_skill_id": "coquette_stun"
 					}
 				},
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 12.0,
+						"base_chance": 2.0,
 						"combat_skill_id": "coquette_blight"
 					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 36.0,
-						"combat_skill_id": "the_hunger_human",
-						"performer_health_ratio_min": 0.01,
-						"performer_health_ratio_max": 0.6
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 8.0,
-						"combat_skill_id": "the_hunger_human"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 36.0,
-						"combat_skill_id": "the_hunger_beast",
-						"performer_health_ratio_min": 0.01,
-						"performer_health_ratio_max": 0.5
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 6.0,
-						"combat_skill_id": "the_hunger_beast"
-					}
-				}
-			],
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
 			"target_selection_desires": [{
 					"type": "random_target",
 					"data": {

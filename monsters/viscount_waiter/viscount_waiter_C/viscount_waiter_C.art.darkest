@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "waiter_dinner" .anim "feast" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+riposte_skill: .id "riposte1" .anim "feast" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+defending_area_pos_offset: .offset 0 -25

@@ -1,0 +1,27 @@
+
+admiral_sucker.sprite.attack_command.png
+size: 967,605
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 15
+  size: 588, 734
+  orig: 588, 734
+  offset: 0, 0
+  index: -1
+icon(startssmallthengrowstoshape)
+  rotate: true
+  xy: 738, 2
+  size: 168, 198
+  orig: 168, 198
+  offset: 0, 0
+  index: -1
+trumpetblare
+  rotate: true
+  xy: 738, 172
+  size: 431, 227
+  orig: 431, 227
+  offset: 0, 0
+  index: -1

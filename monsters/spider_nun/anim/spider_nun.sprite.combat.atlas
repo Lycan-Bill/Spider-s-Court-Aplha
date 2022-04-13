@@ -1,0 +1,146 @@
+
+spider_nun.sprite.combat.png
+size: 1129,2074
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 1056, 340
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1
+spidernun_0001_Hood
+  rotate: false
+  xy: 410, 185
+  size: 186, 221
+  orig: 186, 221
+  offset: 0, 0
+  index: -1
+spidernun_0002_blindfold
+  rotate: false
+  xy: 705, 42
+  size: 85, 56
+  orig: 85, 56
+  offset: 0, 0
+  index: -1
+spidernun_0003_spideremblem
+  rotate: false
+  xy: 624, 9
+  size: 79, 89
+  orig: 79, 89
+  offset: 0, 0
+  index: -1
+spidernun_0004_humarms
+  rotate: false
+  xy: 410, 2
+  size: 212, 181
+  orig: 212, 181
+  offset: 0, 0
+  index: -1
+spidernun_0005_humtopclothes
+  rotate: false
+  xy: 836, 504
+  size: 218, 269
+  orig: 218, 269
+  offset: 0, 0
+  index: -1
+spidernun_0006_crossflap
+  rotate: true
+  xy: 836, 320
+  size: 182, 213
+  orig: 182, 213
+  offset: 0, 0
+  index: -1
+spidernun_0007_humdress
+  rotate: false
+  xy: 2, 823
+  size: 434, 354
+  orig: 434, 354
+  offset: 0, 0
+  index: -1
+spidernun_0008_head
+  rotate: true
+  xy: 824, 170
+  size: 148, 178
+  orig: 148, 178
+  offset: 0, 0
+  index: -1
+spidernun_0009_monhood
+  rotate: false
+  xy: 624, 100
+  size: 185, 169
+  orig: 185, 169
+  offset: 0, 0
+  index: -1
+spidernun_0010_munchers
+  rotate: false
+  xy: 938, 47
+  size: 107, 121
+  orig: 107, 121
+  offset: 0, 0
+  index: -1
+spidernun_0011_monhead
+  rotate: true
+  xy: 811, 62
+  size: 106, 125
+  orig: 106, 125
+  offset: 0, 0
+  index: -1
+spidernun_0012_uppermonbod
+  rotate: true
+  xy: 853, 775
+  size: 402, 234
+  orig: 402, 234
+  offset: 0, 0
+  index: -1
+spidernun_0013_lowermonbod
+  rotate: true
+  xy: 311, 408
+  size: 413, 300
+  orig: 413, 300
+  offset: 0, 0
+  index: -1
+spidernun_0014_inscisor
+  rotate: true
+  xy: 613, 271
+  size: 169, 209
+  orig: 169, 209
+  offset: 0, 0
+  index: -1
+spidernun_0015_spiderleg1
+  rotate: true
+  xy: 2, 44
+  size: 331, 406
+  orig: 331, 406
+  offset: 0, 0
+  index: -1
+spidernun_0016_spiderleg2
+  rotate: false
+  xy: 2, 377
+  size: 307, 444
+  orig: 307, 444
+  offset: 0, 0
+  index: -1
+spidernun_0017_spiderleg3
+  rotate: true
+  xy: 438, 840
+  size: 337, 413
+  orig: 337, 413
+  offset: 0, 0
+  index: -1
+spidernun_0018_spiderlegs4
+  rotate: false
+  xy: 613, 442
+  size: 221, 396
+  orig: 221, 396
+  offset: 0, 0
+  index: -1
+spidernun_0019_monbodd
+  rotate: false
+  xy: 2, 1179
+  size: 1076, 893
+  orig: 1076, 893
+  offset: 0, 0
+  index: -1

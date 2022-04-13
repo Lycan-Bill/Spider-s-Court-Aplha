@@ -1,0 +1,20 @@
+
+spider_nun.sprite.thirst.png
+size: 833,620
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0020_bite1light
+  rotate: false
+  xy: 702, 458
+  size: 129, 160
+  orig: 129, 160
+  offset: 0, 0
+  index: -1
+spidernun_0024_bite1shade
+  rotate: false
+  xy: 2, 2
+  size: 698, 616
+  orig: 698, 616
+  offset: 0, 0
+  index: -1

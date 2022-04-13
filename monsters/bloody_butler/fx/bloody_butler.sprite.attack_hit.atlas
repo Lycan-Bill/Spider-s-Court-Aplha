@@ -1,0 +1,41 @@
+
+bloody_butler.sprite.attack_hit.png
+size: 1317,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+butler_hit/glow1
+  rotate: false
+  xy: 353, 2
+  size: 286, 464
+  orig: 286, 464
+  offset: 0, 0
+  index: -1
+butler_hit/glow2
+  rotate: false
+  xy: 641, 2
+  size: 286, 464
+  orig: 286, 464
+  offset: 0, 0
+  index: -1
+butler_hit/taunt1
+  rotate: false
+  xy: 2, 53
+  size: 349, 413
+  orig: 349, 413
+  offset: 0, 0
+  index: -1
+butler_hit/taunt2
+  rotate: true
+  xy: 929, 243
+  size: 223, 386
+  orig: 223, 386
+  offset: 0, 0
+  index: -1
+butler_hit/taunt2red
+  rotate: true
+  xy: 929, 18
+  size: 223, 386
+  orig: 223, 386
+  offset: 0, 0
+  index: -1

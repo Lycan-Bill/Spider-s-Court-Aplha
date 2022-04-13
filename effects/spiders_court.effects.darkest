@@ -1,11 +1,30 @@
 // Baron Changes
 effect: .name "baron_change_to_jester" .target "performer" .chance 100% .set_monster_class_id baron_fool_C .set_monster_class_reset_hp true .set_monster_class_clear_initative true .set_monster_class_reset_buffs true .set_monster_class_clear_monster_brain_cooldowns false .on_hit true .on_miss true .queue true
 effect: .name "baron_jester_to_baron" .target "performer" .chance 100% .set_monster_class_id baron_B .set_monster_class_reset_hp false .set_monster_class_reset_buffs true .on_hit true .on_miss true .set_monster_class_clear_monster_brain_cooldowns false .set_monster_class_reset_scale true .on_hit true .on_miss true .queue false
+effect: .name "Baron Smug Buff" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
+effect: .name "Baron Silence Stun" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Baron Audience Change" .target "performer_group_other" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
+
+
+//Audience
+effect: .name "Audience Cheer Buff" .target "target" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.25 .damage_high_multiply 0.25 .crit_chance_add 6% .queue true .on_hit true .on_miss true 
+effect: .name "Audience Boo Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 8 .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Audience Jeer Debuff" .target "target" .curio_result_type "positive" .chance 6000% .duration 3 .combat_stat_buff 1 .damage_low_multiply -0.15 .damage_high_multiply -0.15 .crit_chance_add -3% .queue true .on_hit true .on_miss true 
+effect: .name "Audience Crowd Buff" .target "target" .curio_result_type "positive" .chance 6000% .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.25 .damage_high_multiply 0.25 .crit_chance_add 6% .queue true .on_hit true .on_miss true 
+effect: .name "Audience Fun Bleed" .target "target" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
 //Viscount changes
 effect: .name "Viscount ProtectMe ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2
 effect: .name "Viscount ProtectMe ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 
 effect: .name "Viscount ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 7
 effect: .name "Summon Chef" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarab_chef_boss_C .summon_chances 3.0 2.0 2.0 .summon_limits 2 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Viscount Bell Buff" .target "target_group" .chance 100% .duration 3 .combat_stat_buff 1 .crit_chance_add 5% .damage_low_multiply 40%	.damage_high_multiply 40% .speed_rating_add 2 .on_hit true .on_miss false .apply_once true 
+effect: .name "Viscount Riposte target"  .target "target" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 0.3%  .damage_high_multiply 0.3%  .crit_chance_add 2%
+effect: .name "Viscount Plates Bleed" .target "target" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Spices Buff" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration -1 .damage_low_multiply 10%	.damage_high_multiply 10% .speed_rating_add 1 .protection_rating_add 5% .on_hit true .on_miss true
+effect: .name "Viscount Bell Debuff" .target "target" .chance 130% .curio_result_type "positive" .combat_stat_buff 1 .duration 3 .speed_rating_add -3 .on_hit true .on_miss false
+effect: .name "Viscount Bell Stun" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
 
 /// Spider Bishop
 effect: .name "The Blessed Summon A" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters esquire_A courtesan_A bloody_butler_A steward_A .summon_chances 1.0 2.0 .summon_rank_is_previous_monster_class true
@@ -58,7 +77,7 @@ effect: .name "Sacristan Mark ignore prot" .target "performer" .chance 100% .buf
 effect: .name "Sacristan Bishop Mark"	.target "target_group" .chance 50% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
 
 effect: .name "Sacristan Blight 5" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Sacristan Blight 6" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Sacristan Blight 6" .target "target" .chance 160%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "switch_mode_poison_self" .target "performer" .set_mode poison .chance 100% .on_hit true .on_miss true .queue false
 
@@ -72,12 +91,14 @@ effect: .name "butler_kill_self" .target "performer" .chance 100% .kill 1 .on_hi
 /// Gourmand
 effect: .name "Gourmand Transform" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
 effect: .name "Gourmand Mark"	.target "target" .curio_result_type "negative" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
-
+effect: .name "Gourmand Blight 1" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gourmand Blight 3" .target "target" .chance 160%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 /// Blesssed
 effect: .name "Blessed Hit Bug" 		   .target "target" .chance 100% .health_damage 60    .on_hit true .on_miss false
 effect: .name "switch_mode_beast_self" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
 effect: .name "switch_mode_human_self" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "Blood Drink Transform" .target "target" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
 
 /// Court Butcher
 effect: .name "Butcher Regen 4" .target "performer" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 4 .duration 3 .on_hit true .on_miss false .queue true
@@ -98,14 +119,19 @@ effect: .name "Concubine ProtectMe Guard" .target "target" .swap_source_and_targ
 effect: .name "Concubine Damage Buff" .target "target"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 26% .on_hit true .on_miss true .queue true .apply_once true
 
 /// Admiral
-effect: .name "Admiral Bonus Action" .target "target" .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true
+effect: .name "admiral_give_turn" .target "target" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 ///Cardinal
 effect: .name "cardinal_control" .target "target" .chance 70% .control 2 .on_hit true .on_miss false
 effect: .name "Summon Sacristan 1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters sacristan_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 1 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
 effect: .name "Summon Bishop 1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters spider_bishop_D .summon_chances 1.0 .summon_limits 1 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
 effect: .name "switch_mode_normal_self" .target "performer" .set_mode normal .chance 100% .on_hit true .on_miss false .queue false
-effect: .name "Cardinal Prot" .target "target_group" .chance 100% .combat_stat_buff 1 .protection_rating_add 33% .on_hit true .on_miss true .queue true .apply_once true .duration 5
+effect: .name "Cardinal Prot" .target "target_group" .chance 100% .combat_stat_buff 1 .protection_rating_add 33% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+effect: .name "Cardinal Remove Vamp" .target "target" .remove_vampire 1 .on_hit true
+effect: .name "Crimson Taint" .target "target" .disease crimson_taint_vampire_wasting .on_hit true
+effect: .name "To Cardinal D" .target performer .set_monster_class_id cardinal_D .set_monster_class_chances 1 .set_monster_class_reset_buffs false .set_monster_class_reset_hp false .set_monster_class_clear_initative false .on_hit true
+
+
 ///Lord
 effect: .name "Lord Blunderbuss Dmg 1" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss true
 effect: .name "Lord Blunderbuss Dmg 3" .target "performer" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 32%	.damage_high_multiply 32%	.on_hit true .on_miss true
@@ -114,9 +140,9 @@ effect: .name "lord Speed 1" .target "performer" .curio_result_type "positive" .
 effect: .name "lord Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 6	.on_hit true .on_miss false .queue true .apply_once true
 effect: .name "lord Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 9	.on_hit true .on_miss false .queue true .apply_once true
 
-effect: .name "Lord Horn Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Lord Horn Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Lord Horn Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lord Horn Stun 1" .target "target" .curio_result_type "negative" .chance 10% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lord Horn Stun 3" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lord Horn Stun 5" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
 
 effect: .name "Lord Horn Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15% .on_hit true .on_miss true .queue true
 effect: .name "Lord Horn Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20% .on_hit true .on_miss true .queue true
@@ -157,23 +183,23 @@ effect: .name "Noble Decree Debuff Buff 3" .target "target" .curio_result_type "
 effect: .name "Noble Decree Debuff Buff 5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DEBUFFRESIST25 .duration 3 .on_hit true .on_miss false .apply_once false  
 
 effect: .name "Coquette Stun Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids coquette_stun_debuff_1 .duration 3 .on_hit true .on_miss false .apply_once false 
-effect: .name "Coquette Stun Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
-effect: .name "Coquette Stun Debuff 5" .target "target" .curio_result_type "negative" .chance 100% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Coquette Stun Debuff 3" .target "target" .curio_result_type "negative" .chance 140% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Coquette Stun Debuff 5" .target "target" .curio_result_type "negative" .chance 160% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
 
-effect: .name "Coquette Stun 1" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Coquette Stun 3" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Coquette Stun 5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Coquette Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Coquette Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Coquette Stun 5" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Coquette Spider Summon" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters spider_spitter_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 1 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
 
 effect: .name "Coquette Blight 1" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Coquette Blight 3" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Coquette Blight 3" .target "target" .chance 160%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "Coquette Fan Bleed 1" .target "target" .chance 140%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Coquette Fan Bleed 1" .target "target" .chance 120%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Coquette Fan Bleed 2" .target "target" .chance 140%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Coquette Fan Bleed 3" .target "target" .chance 140%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Coquette Fan Bleed 3" .target "target" .chance 160%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 
 
-/Vidame
+//Vidame
 effect: .name "Noble Edict Spd 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss false .apply_once false 
 effect: .name "Noble Edict Spd 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss false .apply_once false 
 effect: .name "Noble Edict Spd 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 5 .on_hit true .on_miss false .apply_once false
@@ -185,6 +211,36 @@ effect: .name "Noble Edict Debuff Buff 5" .target "target" .curio_result_type "p
 effect: .name "Vidame Stun Dmg Buff 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 25% .damage_high_multiply 25%	.on_hit true .on_miss false
 effect: .name "Vidame Stun Dmg Buff 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 40% .damage_high_multiply 40%	.on_hit true .on_miss false
 effect: .name "Vidame Stun Dmg Buff 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 60% .damage_high_multiply 60%	.on_hit true .on_miss false
+
+//Nun
+effect: .name "Nun Prayer Prot 1" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 15% .attack_rating_add 8% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+effect: .name "Nun Prayer Prot 3" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 20% .attack_rating_add 12% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+effect: .name "Nun Prayer Prot 5" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .attack_rating_add 16% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+
+effect: .name "Nun Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Nun Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Nun Stun 5" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Nun Block" .target "target" .chance 100% .curio_result_type "positive" .health_damage_blocks 1 .on_hit true .on_miss false .queue true
+
+effect: .name "Nun Spd 1" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .apply_once false 
+effect: .name "Nun Spd 3" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Nun Spd 5" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -5 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Nun Blight 1" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Nun Blight 3" .target "target" .chance 160%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Nun Mark" .target "performer" .chance 100% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Nun Bleed 1" .target "target" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Nun Bleed 2" .target "target" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Nun Bleed 3" .target "target" .chance 160%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Nun Stun Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids coquette_stun_debuff_1 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Nun Stun Debuff 3" .target "target" .curio_result_type "negative" .chance 140% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Nun Stun Debuff 5" .target "target" .curio_result_type "negative" .chance 160% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
+
+effect: .name "Nun Mark DMG Buff 6" .target "performer" .chance 100% .buff_ids "sacristan_MARKED_DMG_6" .duration 3 .on_hit true .on_miss true  .queue true .apply_once false
 
 // Marchioness
 effect: .name "marchioness_control" .target "target" .chance 80% .control 3 .on_hit true .on_miss false

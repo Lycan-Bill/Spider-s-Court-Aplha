@@ -1,0 +1,41 @@
+
+sacristan.sprite.multi_poison_fx.png
+size: 170,259
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bile_1
+  rotate: true
+  xy: 141, 2
+  size: 70, 21
+  orig: 70, 21
+  offset: 0, 0
+  index: -1
+bile_2
+  rotate: false
+  xy: 2, 2
+  size: 48, 70
+  orig: 48, 70
+  offset: 0, 0
+  index: -1
+bile_3
+  rotate: false
+  xy: 108, 7
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+bile_4
+  rotate: false
+  xy: 52, 16
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+bile_wepaon
+  rotate: false
+  xy: 2, 74
+  size: 166, 183
+  orig: 166, 183
+  offset: 0, 0
+  index: -1

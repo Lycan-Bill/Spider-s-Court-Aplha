@@ -1,33 +1,33 @@
 
 valet.sprite.attack_feed.png
-size: 1342,551
+size: 1381,551
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-attack_feed_beast_body
+attack_feed_beast_wings
+  rotate: true
+  xy: 1145, 210
+  size: 339, 234
+  orig: 339, 234
+  offset: 0, 0
+  index: -1
+hunger_beast
   rotate: false
   xy: 2, 2
   size: 599, 547
   orig: 599, 547
   offset: 0, 0
   index: -1
-attack_feed_beast_wings
-  rotate: true
-  xy: 1041, 210
-  size: 339, 234
-  orig: 339, 234
-  offset: 0, 0
-  index: -1
-attack_feed_human
-  rotate: true
-  xy: 603, 9
-  size: 540, 436
-  orig: 540, 436
+hunger_human
+  rotate: false
+  xy: 603, 80
+  size: 540, 469
+  orig: 540, 469
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 1277, 192
+  rotate: false
+  xy: 603, 15
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

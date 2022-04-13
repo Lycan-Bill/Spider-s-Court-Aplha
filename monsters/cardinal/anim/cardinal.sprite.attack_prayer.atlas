@@ -1,0 +1,20 @@
+
+cardinal.sprite.attack_prayer.png
+size: 713,558
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 548, 554
+  orig: 548, 554
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 552, 11
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

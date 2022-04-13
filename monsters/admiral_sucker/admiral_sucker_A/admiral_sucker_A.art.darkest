@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "admiral_spear_toss" 			.anim "attack" 	.fx "" 	.targchestfx "blood_splatter"
+skill: .id "admiral_start_riposte" 			.anim "attack"
+skill: .id "admiral_buff"					.anim "command"
+riposte_skill: .id "admiral_riposte"		.anim "attack" .fx "" .targchestfx "blood_splatter"

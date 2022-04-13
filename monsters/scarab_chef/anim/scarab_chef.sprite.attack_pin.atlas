@@ -1,0 +1,20 @@
+
+scarab_chef.sprite.attack_pin.png
+size: 1033,822
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 818, 964
+  orig: 818, 964
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 968, 463
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

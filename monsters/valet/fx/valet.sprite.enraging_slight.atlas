@@ -1,27 +1,27 @@
 
 valet.sprite.enraging_slight.png
-size: 845,440
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 aura_black
   rotate: false
-  xy: 297, 37
+  xy: 312, 30
   size: 316, 401
   orig: 316, 401
   offset: 0, 0
   index: -1
 aura_white
   rotate: false
-  xy: 615, 57
+  xy: 630, 50
   size: 228, 381
   orig: 228, 381
   offset: 0, 0
   index: -1
-rim_light
+glow
   rotate: false
   xy: 2, 2
-  size: 293, 436
-  orig: 293, 436
+  size: 308, 429
+  orig: 308, 429
   offset: 0, 0
   index: -1

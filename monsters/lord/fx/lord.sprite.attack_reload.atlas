@@ -1,0 +1,13 @@
+
+lord.sprite.attack_reload.png
+size: 397,407
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 2
+  size: 393, 403
+  orig: 393, 403
+  offset: 0, 0
+  index: -1

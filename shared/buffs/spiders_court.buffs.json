@@ -201,6 +201,32 @@
          }
       },
       {
+         "id" : "Crimson_taint_bleed_debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+      },
+      {
+         "id" : "Crimsom_taint_dmg_debuff",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+      },
+      {
          "id" : "sacristan_ignore_protection",
          "stat_type" : "ignore_protection",
         "stat_sub_type": "",

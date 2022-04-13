@@ -1,0 +1,20 @@
+
+viscount_butcher.sprite.stab.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Butcher02
+  rotate: false
+  xy: 2, 59
+  size: 1325, 599
+  orig: 1325, 599
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

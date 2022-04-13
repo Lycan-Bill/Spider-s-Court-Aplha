@@ -1,7 +1,8 @@
 {
 	"plot_quests": [
-			{
-			"id": "kill_baron_F",
+		{
+			"id": "baron_test_fight",
+			"plot_quest_dependency": "",
 			"has_achievement": false,
 			"dungeon_level": 0,
 			"quest": {
@@ -14,38 +15,37 @@
                 		"raid_rules_override": "cc",
 				"map_name": "map_concubine_A",
 				"goal_ids": [
-					"kill_baron_B"
+					"kill_baron_C"
 				],
 				"completion_reward": {
-					"resolve_xp": 5,
+					"resolve_xp": 12,
 					"items_definition": {
 						"system_config_type": "quest_rewards",
 						"items": {
 							"0": {
 								"id": "",
 								"type": "gold",
-								"amount": 8500
+								"amount": 25000
 							},
 							"1": {
-								"id": "bust",
-								"type": "heirloom",
-								"amount": 4
+								"id": "cc_boss_viscount",
+								"type": "trinket",
+								"amount": 1
 							},
 							"2": {
-								"id": "crest",
-								"type": "heirloom",
-								"amount": 6
-							}
+							"id": "crimson_court_invitation_C",
+							"type": "estate_currency",
+							"amount": 1
+							}							
 						}
 					}
 				}
 			},
 			"additional_trinket_completion_rewards": [
 				{
-					"rarity": "very_rare",
+					"rarity": "crimson_court",
 					"amount": 1
-				}
-			],
+				}],
 			"is_progression": false,
 			"is_repeatable": true,
 			"has_statue_contents": false,

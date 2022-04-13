@@ -1,0 +1,34 @@
+
+gourmand.sprite.attack_flee.png
+size: 955,731
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 2
+  size: 727, 721
+  orig: 727, 721
+  offset: 0, 0
+  index: -1
+movelines_1
+  rotate: true
+  xy: 725, 424
+  size: 305, 113
+  orig: 305, 113
+  offset: 0, 0
+  index: -1
+movelines_2
+  rotate: true
+  xy: 840, 424
+  size: 305, 113
+  orig: 305, 113
+  offset: 0, 0
+  index: -1
+movelines_3
+  rotate: true
+  xy: 725, 117
+  size: 305, 113
+  orig: 305, 113
+  offset: 0, 0
+  index: -1

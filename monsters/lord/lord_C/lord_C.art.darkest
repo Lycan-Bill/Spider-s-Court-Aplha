@@ -1,9 +1,10 @@
 commonfx: .deathfx death_medium
-skill: .id "rib_breaker" .anim "attack_pistol" .fx "rib_cracker" .targchestfx "rib_cracker_target"
-skill: .id "lord_load" .anim "attack_sword" .fx "skewering_repartee"
-skill: .id "the_hunger_human" .anim "attack_feed" .fx "the_hunger_human"
-skill: .id "lords_horn" .anim "attack_leg" .fx "piercing_foreleg"
-skill: .id "penetrating_assault" .anim "attack_charge" 
-skill: .id "the_hunger_beast" .anim "attack_feed" 
-riposte_skill: .id "riposte1" .anim "attack_sword"
+skill: .id "rib_breaker" .anim "attack_shoot" .fx "attack_shoot" 
+skill: .id "lord_load" .anim "attack_reload" .fx "attack_reload"
+skill: .id "the_hunger_human" .anim "attack_feed" .fx "attack_feed" .targchestfx "blood_splatter"
+skill: .id "lords_horn" .anim "attack_leg" .fx "piercing_foreleg" .targchestfx "blood_splatter"
+skill: .id "penetrating_assault" .anim "attack_charge" .targchestfx "blood_splatter"
+skill: .id "the_hunger_beast" .anim "attack_feed" .targchestfx "blood_splatter"
+skill: .id "lords_move" .anim "attack_march" .fx "attack_march" 
+riposte_skill: .id "riposte1" .anim "attack_shoot"
 defending_area_pos_offset: .offset 0 -25

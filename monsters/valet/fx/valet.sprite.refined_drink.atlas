@@ -1,0 +1,27 @@
+
+valet.sprite.refined_drink.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_trey
+  rotate: false
+  xy: 2, 21
+  size: 408, 405
+  orig: 408, 405
+  offset: 0, 0
+  index: -1
+swarm01
+  rotate: false
+  xy: 412, 212
+  size: 324, 214
+  orig: 324, 214
+  offset: 0, 0
+  index: -1
+swarm02
+  rotate: false
+  xy: 412, 2
+  size: 315, 208
+  orig: 315, 208
+  offset: 0, 0
+  index: -1

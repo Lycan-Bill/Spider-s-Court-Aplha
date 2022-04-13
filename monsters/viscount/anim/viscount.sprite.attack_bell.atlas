@@ -1,0 +1,20 @@
+
+viscount.sprite.attack_bell.png
+size: 2150,1616
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell
+  rotate: true
+  xy: 2, 2
+  size: 1612, 2081
+  orig: 1612, 2081
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2085, 1257
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

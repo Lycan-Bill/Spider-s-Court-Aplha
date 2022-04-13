@@ -1,0 +1,20 @@
+
+spider_nun.sprite.prayer.png
+size: 812,441
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0000_pray_light
+  rotate: false
+  xy: 641, 250
+  size: 169, 189
+  orig: 169, 189
+  offset: 0, 0
+  index: -1
+spidernun_0001_pray_shade
+  rotate: true
+  xy: 2, 2
+  size: 437, 637
+  orig: 437, 637
+  offset: 0, 0
+  index: -1

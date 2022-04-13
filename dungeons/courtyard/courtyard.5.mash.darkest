@@ -1,116 +1,42 @@
-hall: .chance 1 .types coquette_C vidame_C lord_C spider_bishop_C
-hall: .chance 1 .types coquette_C courtesan_C esquire_C lord_C
-hall: .chance 1 .types coquette_C sacristan_C lord_C spider_bishop_C
-hall: .chance 1 .types lord_C sacristan_C valet_C bloody_butler_C
-hall: .chance 1 .types valet_C steward_C valet_C steward_C
-hall: .chance 1 .types esquire_C courtesan_C esquire_C courtesan_C
-hall: .chance 1 .types bloody_butler_C courtesan_C steward_C
-hall: .chance 1 .types lord_C chevalier_C esquire_C valet_C
-hall: .chance 1.5 .types gourmand_D sycophant_C courtesan_C
-hall: .chance 1 .types tick_zombie_C tick_zombie_C valet_C esquire_C
-hall: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_C
-hall: .chance 1 .types lord_C gourmand_D sacristan_C
-hall: .chance 1 .types steward_C chevalier_C esquire_C courtesan_C
-hall: .chance 1 .types esquire_C gourmand_D chevalier_C
-hall: .chance 1.5 .types valet_C courtesan_C gourmand_D
-hall: .chance 1 .types gourmand_D gourmand_D
-hall: .chance 1 .types valet_C esquire_C bloody_butler_C
-hall: .chance 1.5 .types gourmand_D steward_C chevalier_C
-hall: .chance 2 .types steward_C steward_C esquire_C courtesan_C
-hall: .chance 1 .types courtesan_C gourmand_D valet_C
-hall: .chance 1 .types coquette_C courtesan_C esquire_C vidame_C
-hall: .chance 1.5 .types sycophant_C admiral_C chevalier_C esquire_C
-hall: .chance 3 .types steward_C sycophant_C chevalier_C admiral_C
-hall: .chance 1.5 .types tick_zombie_C gourmand_D chevalier_C
-hall: .chance 2 .types sycophant_C sycophant_C gourmand_D 
-hall: .chance 1.5 .types steward_C admiral_C tick_zombie_C bloody_butler_C
-hall: .chance 2 .types tick_zombie_C esquire_C courtesan_C sycophant_C
-hall: .chance 1.5 .types valet_C chevalier_C chevalier_C courtesan_C
-hall: .chance 1.5 .types esquire_C admiral_C tick_zombie_C tick_zombie_C 
-hall: .chance 1 .types gourmand_D courtesan_C esquire_C
-hall: .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C
-
-room: .chance 1.5 .types tick_zombie_C chevalier_C admiral_C
-room: .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C
-room: .chance 1 .types valet_C courtesan_C esquire_C bloody_butler_C
-room: .chance 2 .types valet_C steward_C sycophant_C sycophant_C
-room: .chance 2 .types steward_C gourmand_D courtesan_C
-room: .chance 1 .types courtesan_C steward_C tick_zombie_C chevalier_C
-room: .chance 0.5 .types valet_C steward_C valet_C steward_C
-room: .chance 1 .types tick_zombie_C esquire_C courtesan_C sycophant_C
-room: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_C
-room: .chance 1.5 .types gourmand_D admiral_C sycophant_C
-room: .chance 1.5 .types valet_C esquire_C tick_zombie_C
-room: .chance 1 .types steward_C steward_C esquire_C courtesan_C
-room: .chance 1.5 .types esquire_C bloody_butler_C valet_C courtesan_C
-room: .chance 1 .types steward_C courtesan_C sycophant_C sycophant_C
-room: .chance 1.5 .types valet_C esquire_C gourmand_D
-room: .chance 1.5 .types gourmand_D gourmand_D
-room: .chance 1 .types sycophant_C sycophant_C sycophant_C sycophant_C
-room: .chance 1 .types sycophant_C esquire_C chevalier_C courtesan_C
-room: .chance 1.5 .types steward_C steward_C chevalier_C chevalier_C
-room: .chance 1.5 .types courtesan_C gourmand_D bloody_butler_C
-room: .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C
-room: .chance 1.5 .types sycophant_C valet_C chevalier_C admiral_C
-
 hall: .chance 1 .types sycophant_C sycophant_C sycophant_C 
-hall: .chance 1 .types blessed_C sacristan_C coquette_C spider_bishop_C
-hall: .chance 1 .types lord_C tick_zombie_C vidame_C esquire_C
-hall: .chance 2 .types vidame_C  gourmand_D sacristan_C
-hall: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_C
-
-room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C spider_spitter_C
-room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C 
-
+hall: .chance 1 .types tick_zombie_C tick_zombie_C sycophant_C sycophant_C
+hall: .chance 1 .types tick_zombie_C tick_zombie_C sycophant_C esquire_C
+hall: .chance 1 .types carrion_eater_big_C steward_C esquire_C 
+hall: .chance 1 .types steward_C tick_zombie_C courtesan_C steward_C
+hall: .chance 1 .types steward_C tick_zombie_C sycophant_C chevalier_C
+hall: .chance 1 .types steward_C tick_zombie_C courtesan_C esquire_C
+hall: .chance 1 .types steward_C tick_zombie_C esquire_C chevalier_C
+hall: .chance 1 .types carrion_eater_C carrion_eater_C esquire_C sycophant_C
+hall: .chance 2 .types esquire_C esquire_C courtesan_C sycophant_C
+hall: .chance 1 .types esquire_C esquire_C courtesan_C chevalier_C
+hall: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_Cr_C 
+hall: .chance 1 .types maggot_C maggot_C spider_spitter_C 
+room: .chance 1 .types carrion_eater_C carrion_eater_C carrion_eater_C courtesan_C
+room: .chance 1 .types carrion_eater_C carrion_eater_C sycophant_C courtesan_C
+room: .chance 1 .types carrion_eater_C tick_zombie_C courtesan_C esquire_C
+room: .chance 3 .types steward_C sycophant_C tick_zombie_C courtesan_C
+room: .chance 2 .types steward_C tick_zombie_C sycophant_C sycophant_C
+room: .chance 1 .types steward_C tick_zombie_C sycophant_C esquire_C
+room: .chance 1 .types steward_C steward_C courtesan_C sycophant_C
+room: .chance 1 .types steward_C steward_C steward_C courtesan_C
+room: .chance 1 .types steward_C steward_C steward_C sycophant_C
+room: .chance 1 .types tick_zombie_C steward_C chevalier_C courtesan_C
+room: .chance 2 .types steward_C esquire_C sycophant_C esquire_C
+room: .chance 1 .types sycophant_C steward_C esquire_C courtesan_C
+room: .chance 1 .types sycophant_C esquire_C chevalier_C courtesan_C
+room: .chance 1 .types carrion_eater_big_C carrion_eater_C esquire_C 
+room: .chance 2 .types tick_zombie_C courtesan_C steward_C steward_C
+room: .chance 1 .types steward_C steward_C esquire_C courtesan_C
+room: .chance 1 .types steward_C tick_zombie_C esquire_C chevalier_C
+room: .chance 1 .types steward_C steward_C sycophant_C chevalier_C 
 boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C 
-boss: .chance 1 .types viscount_C body_emaciated_C body_average_C body_bloated_C
-boss: .chance 1 .types bulrush_C bulrush_C crocodile_E
-boss: .chance 1 .types pyre_empty_C fanatic_E
-boss: .chance 1 .types concubine_D
-boss: .chance 1 .types cardinal_C
-boss: .chance 1 .types body_emaciated_C body_average_C sommeilier_C body_bloated_C
-boss: .chance 1 .types marchioness_small_A
-
+boss: .chance 1 .types  body_emaciated_C body_average_C body_bloated_C viscount_C
 stall: .chance 2 .types esquire_C courtesan_C  
 stall: .chance 1 .types steward_C courtesan_C  
-stall: .chance 1 .types steward_C sycophant_C  
+stall: .chance 1 .types steward_C sycophant_C   
 stall: .chance 1 .types steward_C steward_C  
-stall: .chance 1 .types esquire_C
-
-trap: .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C 
-trap: .chance 1 .types steward_C steward_C esquire_C courtesan_C
-trap: .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C 
-
-named: .name sc_map_A_01 .chance 1 .types sycophant_C sycophant_C sycophant_C sycophant_C	
-named: .name sc_map_A_02 .chance 1 .types bulrush_B bulrush_B crocodile_H bulrush_B
-named: .name sc_map_A_03 .chance 1 .types sycophant_C gatekeeper_viscount_C chevalier_C admiral_C
-named: .name sc_map_A_04 .chance 1 .types sycophant_C tick_zombie_C chevalier_C admiral_C
-
-named: .name sc_map_B_01 .chance 1 .types tick_zombie_C	tick_zombie_C chevalier_C chevalier_C
-named: .name sc_map_B_02 .chance 1 .types chevalier_C sycophant_C sycophant_C
-named: .name sc_map_B_03 .chance 1 .types sycophant_C sycophant_C zombie_C admiral_C
-
-named: .name sc_map_C_01 .chance 1 .types steward_C steward_C esquire_C courtesan_C	
-named: .name sc_map_C_02 .chance 1 .types valet_C courtesan_C gourmand_D
-named: .name sc_map_C_03 .chance 1 .types steward_C steward_C esquire_C courtesan_C
-named: .name sc_map_C_04 .chance 1 .types steward_C gourmand_D courtesan_C
-named: .name sc_map_C_05 .chance 1 .types vale_C chevalier_C chevalier_C courtesan_C
-named: .name sc_map_C_06 .chance 1 .types gourmand_D gourmand_D
-
-named: .name sc_map_D_01 .chance 1 .types esquire_C steward_C courtesan_C chevalier_C	
-named: .name sc_map_D_02 .chance 1 .types sycophant_C esquire_C chevalier_C courtesan_C
-named: .name sc_map_D_03 .chance 1 .types courtesan_C courtesan_C courtesan_C courtesan_C
-named: .name sc_map_D_04 .chance 1 .types tick_zombie_C tick_zombie_C valet_C esquire_C
-named: .name sc_map_D_05 .chance 1 .types steward_C esquire_C courtesan_C valet_C
-named: .name sc_map_D_06 .chance 1 .types valet_C esquire_C bloody_butler_C
-named: .name sc_map_D_07 .chance 1 .types valet_C esquire_C gourmand_D
-
-named: .name sc_map_final_area .chance 1 .types valet_C steward_C valet_C steward_C
-named: .name sc_secret_battle .chance 1 .types brigand_cutthroat_C fungal_bloat_C swine_drummer_C fishman_shaman_C
-
-named: .name sc_map_second_area .chance 1 .types valet_C steward_C bloody_butler_C esquire_C
-named: .name sc_map_butcher .chance 1 .types valet_C court_butcher_D valet_C
-named: .name concubine_fight_1 .chance 1 .types concubine_D
+stall: .chance 1 .types esquire_C   
+trap: .chance 1 .types sycophant_C tick_zombie_C chevalier_C 
 named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C tick_zombie_C castellan_C 
 named: .name infested_egg_cluster_1 .chance 1 .types steward_C sycophant_C castellan_C 
 named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C sycophant_C sycophant_C castellan_C

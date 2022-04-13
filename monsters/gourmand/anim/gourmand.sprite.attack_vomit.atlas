@@ -1,0 +1,20 @@
+
+gourmand.sprite.attack_vomit.png
+size: 1059,795
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 2, 2
+  size: 998, 791
+  orig: 998, 791
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1002, 463
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+spider_bishop.sprite.attack_preach.png
+size: 718,679
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_1
+  rotate: false
+  xy: 2, 2
+  size: 501, 675
+  orig: 501, 675
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: false
+  xy: 505, 170
+  size: 192, 507
+  orig: 192, 507
+  offset: 0, 0
+  index: -1
+glow_3
+  rotate: true
+  xy: 505, 38
+  size: 130, 211
+  orig: 130, 211
+  offset: 0, 0
+  index: -1

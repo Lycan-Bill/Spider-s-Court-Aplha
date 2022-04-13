@@ -1,0 +1,20 @@
+
+spider_nun.sprite.zeal.png
+size: 603,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0022_claw1
+  rotate: false
+  xy: 346, 91
+  size: 255, 405
+  orig: 255, 405
+  offset: 0, 0
+  index: -1
+spidernun_0023_claw2
+  rotate: false
+  xy: 2, 2
+  size: 342, 494
+  orig: 342, 494
+  offset: 0, 0
+  index: -1

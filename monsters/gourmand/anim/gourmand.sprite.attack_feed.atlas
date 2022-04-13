@@ -1,0 +1,20 @@
+
+gourmand.sprite.attack_feed.png
+size: 1143,878
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 1082, 874
+  orig: 1082, 874
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1086, 546
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

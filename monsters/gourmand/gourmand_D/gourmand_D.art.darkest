@@ -1,4 +1,7 @@
 commonfx: .deathfx death_large
-skill: .id "the_hunger_human" .anim "transform"
-skill: .id "gourmand_mark" .anim "song"
+skill: .id "the_hunger_human" .anim "attack_feed" .fx "attack_feed" .targchestfx "blood_splatter"
+skill: .id "gourmand_mark" .anim "attack_song" .fx "attack_song"
 skill: .id "gourmand_tongue" .anim "tongue"
+skill: .id "gourmand_flee" .anim "attack_flee" .fx "attack_flee"
+skill: .id "gourmand_roll" .anim "attack_roll" .fx "attack_roll" .targchestfx "blood_splatter"
+skill: .id "gourmand_vomit" .anim "attack_vomit" .fx "attack_vomit"

@@ -1,19 +1,20 @@
+
 valet.sprite.attack_hand.png
-size: 531,375
+size: 1024,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-attack_hand
-  rotate: true
-  xy: 2, 2
-  size: 371, 462
-  orig: 371, 462
-  offset: 0, 0
-  index: -1
 shadow
-  rotate: true
-  xy: 466, 16
+  rotate: false
+  xy: 2, 2
   size: 357, 63
   orig: 357, 63
+  offset: 0, 0
+  index: -1
+wigge
+  rotate: true
+  xy: 2, 67
+  size: 371, 510
+  orig: 371, 510
   offset: 0, 0
   index: -1

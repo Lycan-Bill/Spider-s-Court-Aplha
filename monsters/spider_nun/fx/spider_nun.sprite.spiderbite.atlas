@@ -1,0 +1,20 @@
+
+spider_nun.sprite.spiderbite.png
+size: 1097,843
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0042_bite2light
+  rotate: true
+  xy: 920, 659
+  size: 182, 175
+  orig: 182, 175
+  offset: 0, 0
+  index: -1
+spidernun_0043_bite2shade
+  rotate: false
+  xy: 2, 2
+  size: 916, 839
+  orig: 916, 839
+  offset: 0, 0
+  index: -1

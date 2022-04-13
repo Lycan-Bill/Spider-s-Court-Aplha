@@ -1,0 +1,11 @@
+commonfx: .deathfx death_small
+skill: .id "nun_prayer" .anim "attack_prayer" .fx "prayer" .targfx "pray_target"
+skill: .id "nun_light" .anim "attack_divinelight" .fx "divinelight" .targfx "light_hit"
+skill: .id "nun_shield" .anim "attack_holyshield" .fx "holyshield" .targfx "shield_target"
+skill: .id "the_hunger_human" .anim "attack_thirst" .fx "thirst" .targchestfx "blood_splatter"
+skill: .id "the_hunger_beast" .anim "attack_spiderbite"  .fx "spiderbite" .targchestfx "blood_splatter"
+skill: .id "nun_venom" .anim "attack_venom" .fx "venom" .targfx "venom_hit"
+skill: .id "nun_zeal" .anim "attack_zeal" .fx "zeal" .targchestfx "blood_splatter"
+skill: .id "nun_heretic" .anim "attack_punish" .fx "punish" .targchestfx "blood_splatter"
+
+defending_area_pos_offset: .offset 0 -25

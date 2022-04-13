@@ -1,0 +1,41 @@
+
+cardinal.sprite.attack_prayer.png
+size: 596,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloddroplets2
+  rotate: false
+  xy: 542, 205
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+blooddroplets1
+  rotate: false
+  xy: 451, 154
+  size: 89, 87
+  orig: 89, 87
+  offset: 0, 0
+  index: -1
+blooddroplets_book
+  rotate: false
+  xy: 451, 59
+  size: 64, 93
+  orig: 64, 93
+  offset: 0, 0
+  index: -1
+glow_legs
+  rotate: false
+  xy: 2, 2
+  size: 447, 388
+  orig: 447, 388
+  offset: 0, 0
+  index: -1
+glow_staff
+  rotate: false
+  xy: 451, 243
+  size: 143, 147
+  orig: 143, 147
+  offset: 0, 0
+  index: -1

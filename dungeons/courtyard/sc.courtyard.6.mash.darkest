@@ -1,0 +1,6 @@
+boss: .chance 1 .types cardinal_C
+
+trap: .chance 1 .types sycophant_C tick_zombie_C
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C tick_zombie_C castellan_C 
+named: .name infested_egg_cluster_1 .chance 1 .types steward_C sycophant_C castellan_C 
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C sycophant_C sycophant_C castellan_C

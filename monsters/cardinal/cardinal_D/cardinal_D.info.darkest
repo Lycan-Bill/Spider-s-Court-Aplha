@@ -1,0 +1,21 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 203 .def 25.5% .prot 0.15 .spd 9 .stun_resist 85% .poison_resist 120% .bleed_resist 85% .debuff_resist 75% .move_resist 95%
+skill: .id "prayer_to_blood" .type "melee" .valid_modes "human" .atk 112.5% .dmg 0 0 .crit 0%  .effect "Cardinal Prot" .launch 4321 .target @~1234 .is_crit_valid False
+skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 112.5% .dmg 2 6 .crit 2%  .launch 4321 .target 1234 .effect  "switch_mode_beast_self" "CC Big Feed Heal 5" "Crimson Curse Boss"
+skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 112.5% .dmg 2 6 .crit 2%  .launch 4321 .target 1234 .effect   "CC Big Feed Heal 5" "Crimson Curse Boss"
+skill: .id "cardinal_heresy" .type "melee" .valid_modes "human" .atk 122.5% .dmg 4 8 .crit 0%  .effect "Fanatic Stress DOT" .launch 4321 .target 1234 .is_crit_valid False
+skill: .id "blood_salvation" .type "ranged" .valid_modes "beast" .atk 122.5% .dmg 0 0 .crit 14%  .effect "cardinal_control" "Fanatic Stress Big" "Crimson Curse Boss" .launch 4321 .target 1234 .is_knowledgeable False
+skill: .id "heed_faithful" .type "melee" .valid_modes "human" .atk 112.5% .dmg 0 0 .crit 0%  .effect "Summon Sacristan 1" "Summon Bishop 1" .launch 4321 .target ~1234 .rank_damage_modifiers -0.75 -0.4 -0.2 0.0 .move 0 4 .is_crit_valid False
+skill: .id "transform_calm" .valid_modes "beast" .launch 4321 .target .effect switch_mode_human_self
+
+personality: .prefskill -1
+loot: .code "T_COURTYARD" .count 1
+loot: .code "FH" .count 1
+loot: .code "FCURE" .count 1
+initiative: .number_of_turns_per_round 2
+monster_brain: .id cardinal_D
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+mode: .id human 
+mode: .id beast .is_raid_default true

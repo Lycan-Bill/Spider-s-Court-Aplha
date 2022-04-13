@@ -1,0 +1,20 @@
+
+cardinal.sprite.attack_heed.png
+size: 518,586
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 353, 582
+  orig: 353, 582
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 357, 39
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

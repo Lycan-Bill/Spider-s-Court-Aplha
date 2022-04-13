@@ -1,0 +1,41 @@
+
+lord.sprite.attack_march.png
+size: 676,507
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 4
+  rotate: true
+  xy: 606, 135
+  size: 186, 35
+  orig: 186, 35
+  offset: 0, 0
+  index: -1
+bug_glow
+  rotate: false
+  xy: 2, 2
+  size: 513, 503
+  orig: 513, 503
+  offset: 0, 0
+  index: -1
+movelines_1
+  rotate: true
+  xy: 517, 269
+  size: 236, 87
+  orig: 236, 87
+  offset: 0, 0
+  index: -1
+movelines_2
+  rotate: true
+  xy: 517, 31
+  size: 236, 87
+  orig: 236, 87
+  offset: 0, 0
+  index: -1
+movelines_3
+  rotate: true
+  xy: 606, 323
+  size: 182, 68
+  orig: 182, 68
+  offset: 0, 0
+  index: -1

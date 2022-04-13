@@ -1,0 +1,20 @@
+
+cardinal.sprite.attack_salvation.png
+size: 1071,579
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 906, 575
+  orig: 906, 575
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 910, 32
+  size: 159, 545
+  orig: 159, 545
+  offset: 0, 0
+  index: -1

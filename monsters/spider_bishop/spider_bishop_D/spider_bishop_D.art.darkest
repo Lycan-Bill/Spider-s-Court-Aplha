@@ -1,5 +1,5 @@
 commonfx: .deathfx death_large
-skill: .id "sc_preach" .anim "preach" .area_pos_offset 0 -15
-skill: .id "sc_proclaim" .anim "preach"
-skill: .id "sc_sermonize" .anim "sermonize" .area_pos_offset 0 -80 
-skill: .id "sc_weep_for_the_dead" .anim "blood_spill" .area_pos_offset 0 -40
+skill: .id "sc_preach" .anim "attack_preach" .fx "attack_preach" .area_pos_offset 0 -15
+skill: .id "sc_proclaim" .anim "attack_preach" .fx "attack_preach"
+skill: .id "sc_sermonize" .anim "attack_sermon" .fx "attack_sermon" .area_pos_offset 0 -80 
+skill: .id "sc_weep_for_the_dead" .anim "attack_blood" .fx "attack_blood" .area_pos_offset 0 -40

@@ -1,0 +1,13 @@
+
+admiral_sucker.sprite.attack_throw.png
+size: 970,998
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: false
+  xy: 2, 2
+  size: 966, 994
+  orig: 966, 994
+  offset: 0, 0
+  index: -1

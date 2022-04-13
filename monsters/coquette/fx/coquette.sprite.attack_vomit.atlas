@@ -1,0 +1,48 @@
+
+coquette.sprite.attack_vomit.png
+size: 272,209
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vomit1
+  rotate: false
+  xy: 2, 2
+  size: 206, 205
+  orig: 206, 205
+  offset: 0, 0
+  index: -1
+vomit2
+  rotate: false
+  xy: 210, 152
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+vomit3
+  rotate: false
+  xy: 235, 91
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+vomit4
+  rotate: true
+  xy: 210, 96
+  size: 54, 23
+  orig: 54, 23
+  offset: 0, 0
+  index: -1
+vomit5
+  rotate: false
+  xy: 210, 42
+  size: 16, 52
+  orig: 16, 52
+  offset: 0, 0
+  index: -1
+vomit6
+  rotate: false
+  xy: 235, 114
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1

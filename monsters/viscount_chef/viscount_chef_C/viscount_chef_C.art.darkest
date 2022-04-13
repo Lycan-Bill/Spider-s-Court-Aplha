@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large
+skill: .id "chef_soup" .anim "attack_pins" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "chef_feast" .anim "attack_pins" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+riposte_skill: .id "riposte1" .anim .anim "attack_pins" .fx "pin_swipe" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+defending_area_pos_offset: .offset 0 -25

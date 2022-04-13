@@ -1,0 +1,20 @@
+
+spider_nun.sprite.holyshield.png
+size: 875,446
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0002_shield_light
+  rotate: true
+  xy: 645, 129
+  size: 315, 228
+  orig: 315, 228
+  offset: 0, 0
+  index: -1
+spidernun_0003_shield_shade
+  rotate: true
+  xy: 2, 2
+  size: 442, 641
+  orig: 442, 641
+  offset: 0, 0
+  index: -1

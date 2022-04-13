@@ -1,0 +1,20 @@
+
+spider_nun.sprite.attack_divinelight.png
+size: 744,447
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: true
+  xy: 2, 2
+  size: 443, 667
+  orig: 443, 667
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 671, 12
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

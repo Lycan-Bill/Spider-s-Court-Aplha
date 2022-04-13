@@ -1,0 +1,13 @@
+
+admiral_sucker.sprite.attack_mark.png
+size: 56,90
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyeball_blinks
+  rotate: false
+  xy: 2, 2
+  size: 52, 86
+  orig: 52, 86
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+admiral_sucker.sprite.attack_poke.png
+size: 1184,970
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 966, 994
+  orig: 966, 994
+  offset: 0, 0
+  index: -1
+spears_1
+  rotate: true
+  xy: 998, 93
+  size: 389, 87
+  orig: 389, 87
+  offset: 0, 0
+  index: -1
+spears_2
+  rotate: true
+  xy: 998, 484
+  size: 484, 158
+  orig: 484, 158
+  offset: 0, 0
+  index: -1
+spears_3
+  rotate: true
+  xy: 1087, 142
+  size: 340, 95
+  orig: 340, 95
+  offset: 0, 0
+  index: -1

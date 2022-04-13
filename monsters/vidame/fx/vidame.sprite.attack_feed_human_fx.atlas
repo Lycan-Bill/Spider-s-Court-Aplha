@@ -1,0 +1,34 @@
+
+vidame.sprite.attack_feed_human_fx.png
+size: 855,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodspittle1
+  rotate: false
+  xy: 807, 562
+  size: 46, 84
+  orig: 46, 84
+  offset: 0, 0
+  index: -1
+bloodspittle2
+  rotate: false
+  xy: 807, 504
+  size: 34, 56
+  orig: 34, 56
+  offset: 0, 0
+  index: -1
+bloodspittle3
+  rotate: false
+  xy: 807, 468
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 2
+  size: 803, 644
+  orig: 803, 644
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+gourmand.sprite.attack_hankerchief.png
+size: 1043,734
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6
+  rotate: true
+  xy: 2, 2
+  size: 730, 982
+  orig: 730, 982
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 986, 402
+  size: 330, 55
+  orig: 330, 55
+  offset: 0, 0
+  index: -1

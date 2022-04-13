@@ -1,5 +1,0 @@
-commonfx: .deathfx death_medium
-skill: .id "ca_command" .anim "command"
-skill: .id "ca_orders" .anim "command"
-skill: .id "ca_instruct" .anim "command"
-skill: .id "ca_stab" .anim "attack"

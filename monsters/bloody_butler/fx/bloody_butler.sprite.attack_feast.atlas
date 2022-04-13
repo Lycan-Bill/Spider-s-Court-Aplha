@@ -1,0 +1,34 @@
+
+bloody_butler.sprite.attack_feast.png
+size: 1118,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flies
+  rotate: false
+  xy: 569, 198
+  size: 346, 229
+  orig: 346, 229
+  offset: 0, 0
+  index: -1
+foodglow
+  rotate: false
+  xy: 569, 41
+  size: 300, 155
+  orig: 300, 155
+  offset: 0, 0
+  index: -1
+staffglow
+  rotate: false
+  xy: 2, 2
+  size: 565, 425
+  orig: 565, 425
+  offset: 0, 0
+  index: -1
+steam
+  rotate: true
+  xy: 917, 64
+  size: 363, 199
+  orig: 363, 199
+  offset: 0, 0
+  index: -1

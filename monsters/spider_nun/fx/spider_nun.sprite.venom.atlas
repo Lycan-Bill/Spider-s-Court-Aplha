@@ -1,0 +1,55 @@
+
+spider_nun.sprite.venom.png
+size: 1067,877
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0025_spit1
+  rotate: true
+  xy: 924, 364
+  size: 114, 64
+  orig: 114, 64
+  offset: 0, 0
+  index: -1
+spidernun_0026_spit2
+  rotate: true
+  xy: 924, 597
+  size: 143, 67
+  orig: 143, 67
+  offset: 0, 0
+  index: -1
+spidernun_0027_spit3
+  rotate: true
+  xy: 924, 480
+  size: 115, 95
+  orig: 115, 95
+  offset: 0, 0
+  index: -1
+spidernun_0028_bubble1
+  rotate: false
+  xy: 924, 340
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+spidernun_0029_bubble2
+  rotate: false
+  xy: 993, 701
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+spidernun_0040_spitlight
+  rotate: false
+  xy: 924, 742
+  size: 141, 133
+  orig: 141, 133
+  offset: 0, 0
+  index: -1
+spidernun_0041_spitshade
+  rotate: true
+  xy: 2, 2
+  size: 873, 920
+  orig: 873, 920
+  offset: 0, 0
+  index: -1

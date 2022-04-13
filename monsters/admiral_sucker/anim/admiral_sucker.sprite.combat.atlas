@@ -1,0 +1,293 @@
+
+admiral_sucker.sprite.combat.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 59
+  rotate: true
+  xy: 2, 171
+  size: 665, 33
+  orig: 665, 33
+  offset: 0, 0
+  index: -1
+back left coat
+  rotate: false
+  xy: 822, 1632
+  size: 245, 414
+  orig: 245, 512
+  offset: 0, 98
+  index: -1
+boi 1/mook 1 arm
+  rotate: false
+  xy: 1941, 1583
+  size: 85, 94
+  orig: 93, 94
+  offset: 8, 0
+  index: -1
+boi 1/mook 1 arm2
+  rotate: true
+  xy: 512, 535
+  size: 39, 69
+  orig: 47, 94
+  offset: 0, 1
+  index: -1
+boi 1/mook 1 leg
+  rotate: false
+  xy: 2, 49
+  size: 30, 120
+  orig: 34, 120
+  offset: 4, 0
+  index: -1
+boi 1/mook 1 leg2
+  rotate: false
+  xy: 749, 773
+  size: 31, 79
+  orig: 42, 92
+  offset: 0, 1
+  index: -1
+boi 1/mook boi 1
+  rotate: true
+  xy: 1697, 1582
+  size: 220, 242
+  orig: 220, 242
+  offset: 0, 0
+  index: -1
+boi 1/spear #8
+  rotate: false
+  xy: 1380, 1809
+  size: 380, 237
+  orig: 380, 237
+  offset: 0, 0
+  index: -1
+boi 2/boi2
+  rotate: false
+  xy: 417, 780
+  size: 215, 236
+  orig: 215, 236
+  offset: 0, 0
+  index: -1
+boi 2/boi2 arm
+  rotate: false
+  xy: 625, 691
+  size: 103, 75
+  orig: 107, 75
+  offset: 4, 0
+  index: -1
+boi 2/boi2 arm2
+  rotate: false
+  xy: 1077, 1565
+  size: 61, 65
+  orig: 69, 75
+  offset: 0, 6
+  index: -1
+boi 2/boi2leg
+  rotate: true
+  xy: 407, 533
+  size: 41, 103
+  orig: 71, 105
+  offset: 30, 2
+  index: -1
+boi 2/boi2leg2
+  rotate: false
+  xy: 2012, 1867
+  size: 28, 98
+  orig: 50, 105
+  offset: 0, 0
+  index: -1
+boi 2/spear #7
+  rotate: false
+  xy: 417, 1018
+  size: 192, 408
+  orig: 192, 408
+  offset: 0, 0
+  index: -1
+boi 4/arm #1
+  rotate: false
+  xy: 625, 635
+  size: 96, 54
+  orig: 104, 75
+  offset: 0, 21
+  index: -1
+boi 4/arm #2
+  rotate: false
+  xy: 634, 768
+  size: 113, 84
+  orig: 155, 125
+  offset: 42, 15
+  index: -1
+boi 4/leg
+  rotate: false
+  xy: 2012, 1967
+  size: 34, 79
+  orig: 34, 79
+  offset: 0, 0
+  index: -1
+boi 4/nody
+  rotate: false
+  xy: 634, 854
+  size: 175, 204
+  orig: 175, 204
+  offset: 0, 0
+  index: -1
+boi 4/spear #5
+  rotate: true
+  xy: 37, 176
+  size: 336, 299
+  orig: 336, 299
+  offset: 0, 0
+  index: -1
+boi3 #1/boi3
+  rotate: false
+  xy: 407, 576
+  size: 216, 202
+  orig: 216, 202
+  offset: 0, 0
+  index: -1
+boi3 #1/boi3arm
+  rotate: false
+  xy: 625, 575
+  size: 86, 58
+  orig: 109, 64
+  offset: 0, 0
+  index: -1
+boi3 #1/boi3arm2
+  rotate: false
+  xy: 1069, 1670
+  size: 173, 45
+  orig: 173, 51
+  offset: 0, 6
+  index: -1
+boi3 #1/boi3leg
+  rotate: true
+  xy: 1069, 1632
+  size: 36, 84
+  orig: 51, 97
+  offset: 0, 0
+  index: -1
+boi3 #1/boi3leg2
+  rotate: true
+  xy: 1244, 1671
+  size: 44, 97
+  orig: 49, 103
+  offset: 5, 6
+  index: -1
+boi3 #1/spear #6
+  rotate: false
+  xy: 1025, 1024
+  size: 68, 446
+  orig: 68, 446
+  offset: 0, 0
+  index: -1
+lead man/lead man copy 3
+  rotate: true
+  xy: 1380, 1573
+  size: 234, 315
+  orig: 234, 315
+  offset: 0, 0
+  index: -1
+lead man/leadman leg
+  rotate: true
+  xy: 1155, 1640
+  size: 28, 78
+  orig: 51, 97
+  offset: 0, 1
+  index: -1
+lead man/leadman leg2
+  rotate: false
+  xy: 915, 928
+  size: 25, 106
+  orig: 44, 106
+  offset: 19, 0
+  index: -1
+left hand man/arm
+  rotate: false
+  xy: 811, 874
+  size: 102, 160
+  orig: 120, 208
+  offset: 0, 10
+  index: -1
+left hand man/body
+  rotate: true
+  xy: 822, 1472
+  size: 158, 253
+  orig: 180, 253
+  offset: 0, 0
+  index: -1
+left hand man/extra
+  rotate: true
+  xy: 1941, 1679
+  size: 123, 105
+  orig: 145, 148
+  offset: 22, 12
+  index: -1
+left hand man/extra2
+  rotate: false
+  xy: 356, 522
+  size: 49, 314
+  orig: 59, 314
+  offset: 10, 0
+  index: -1
+left hand man/hat
+  rotate: true
+  xy: 1762, 1804
+  size: 242, 248
+  orig: 242, 248
+  offset: 0, 0
+  index: -1
+left hand man/spear #4
+  rotate: true
+  xy: 828, 1036
+  size: 434, 124
+  orig: 434, 124
+  offset: 0, 0
+  index: -1
+right coat
+  rotate: false
+  xy: 575, 1457
+  size: 245, 589
+  orig: 245, 589
+  offset: 0, 0
+  index: -1
+rocc
+  rotate: false
+  xy: 2, 1428
+  size: 571, 618
+  orig: 571, 618
+  offset: 0, 0
+  index: -1
+sillouhete/Layer 58
+  rotate: true
+  xy: 2, 838
+  size: 588, 413
+  orig: 588, 413
+  offset: 0, 0
+  index: -1
+sillouhete/spear
+  rotate: false
+  xy: 611, 1060
+  size: 215, 395
+  orig: 215, 395
+  offset: 0, 0
+  index: -1
+sillouhete/spear #1
+  rotate: false
+  xy: 1069, 1717
+  size: 309, 329
+  orig: 309, 329
+  offset: 0, 0
+  index: -1
+sillouhete/spear #2
+  rotate: false
+  xy: 37, 514
+  size: 317, 322
+  orig: 317, 322
+  offset: 0, 0
+  index: -1
+sillouhete/spear #3
+  rotate: true
+  xy: 954, 1025
+  size: 445, 69
+  orig: 445, 69
+  offset: 0, 0
+  index: -1

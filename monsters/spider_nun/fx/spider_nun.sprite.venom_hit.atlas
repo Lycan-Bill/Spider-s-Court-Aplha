@@ -1,0 +1,55 @@
+
+spider_nun.sprite.venom_hit.png
+size: 546,1083
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spidernun_0030_splode1
+  rotate: false
+  xy: 2, 27
+  size: 84, 101
+  orig: 84, 101
+  offset: 0, 0
+  index: -1
+spidernun_0031_splode2-1
+  rotate: true
+  xy: 302, 2
+  size: 193, 229
+  orig: 193, 229
+  offset: 0, 0
+  index: -1
+spidernun_0032_splode2-2
+  rotate: false
+  xy: 302, 197
+  size: 214, 227
+  orig: 214, 227
+  offset: 0, 0
+  index: -1
+spidernun_0033_splode2-3
+  rotate: false
+  xy: 302, 426
+  size: 241, 237
+  orig: 241, 237
+  offset: 0, 0
+  index: -1
+spidernun_0037_splode3-1
+  rotate: false
+  xy: 265, 665
+  size: 279, 416
+  orig: 279, 416
+  offset: 0, 0
+  index: -1
+spidernun_0038_splode3-2
+  rotate: false
+  xy: 2, 130
+  size: 298, 396
+  orig: 298, 396
+  offset: 0, 0
+  index: -1
+spidernun_0039_splode3-3
+  rotate: false
+  xy: 2, 528
+  size: 261, 553
+  orig: 261, 553
+  offset: 0, 0
+  index: -1

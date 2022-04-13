@@ -7,11 +7,11 @@
 				},
 				{
 					"combat_skill_id": "the_hunger_human",
-					"amount": 1
+					"amount": 2
 				},
 				{
 					"combat_skill_id": "the_hunger_beast",
-					"amount": 4
+					"amount": 3
 
 				},
 				{
@@ -55,40 +55,7 @@
 					"data": {
 						"base_chance": 8.0,
 						"combat_skill_id": "high_born_sneer"
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 10.0,
-						"combat_skill_id": "the_hunger_human",
-                        			"performer_health_ratio_min": 0.01,
-                       				 "performer_health_ratio_max": 0.5
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 1.0,
-						"combat_skill_id": "the_hunger_human"
-					}
-				},
-				{
-				
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 10.0,
-						"combat_skill_id": "the_hunger_beast",
-                        			"performer_health_ratio_min": 0.01,
-                        			"performer_health_ratio_max": 0.5
-					}
-				},
-				{
-					"type": "specific_skill",
-					"data": {
-						"base_chance": 3.0,
-						"combat_skill_id": "the_hunger_beast"
-					}
+                    	}
 				},
 				{
 					"type": "specific_skill",
@@ -110,8 +77,40 @@
 						"base_chance": 8.0,
 						"combat_skill_id": "vidame_rifle"
 					}
-				}
-			],
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
 		"target_selection_desires": [{
 			"type": "random_target",
 					"data": {

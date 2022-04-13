@@ -1,0 +1,69 @@
+
+gourmand.sprite.attack_vomit.png
+size: 494,1065
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bile_1
+  rotate: true
+  xy: 2, 263
+  size: 800, 430
+  orig: 800, 430
+  offset: 0, 0
+  index: -1
+bile_2
+  rotate: true
+  xy: 434, 165
+  size: 898, 58
+  orig: 898, 58
+  offset: 0, 0
+  index: -1
+bile_3
+  rotate: false
+  xy: 267, 107
+  size: 81, 58
+  orig: 81, 58
+  offset: 0, 0
+  index: -1
+bile_4
+  rotate: false
+  xy: 350, 102
+  size: 73, 63
+  orig: 73, 63
+  offset: 0, 0
+  index: -1
+bile_5
+  rotate: false
+  xy: 425, 107
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+bones_1
+  rotate: false
+  xy: 141, 128
+  size: 124, 133
+  orig: 124, 133
+  offset: 0, 0
+  index: -1
+bones_2
+  rotate: true
+  xy: 2, 2
+  size: 116, 121
+  orig: 116, 121
+  offset: 0, 0
+  index: -1
+bones_3
+  rotate: false
+  xy: 2, 120
+  size: 137, 141
+  orig: 137, 141
+  offset: 0, 0
+  index: -1
+bones_4
+  rotate: false
+  xy: 267, 167
+  size: 138, 94
+  orig: 138, 94
+  offset: 0, 0
+  index: -1

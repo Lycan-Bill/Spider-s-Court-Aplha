@@ -1,0 +1,48 @@
+
+sacristan.sprite.attack_spit_fx.png
+size: 242,151
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bile_1
+  rotate: false
+  xy: 162, 21
+  size: 33, 128
+  orig: 33, 128
+  offset: 0, 0
+  index: -1
+bile_2
+  rotate: false
+  xy: 197, 74
+  size: 30, 75
+  orig: 30, 75
+  offset: 0, 0
+  index: -1
+bile_3
+  rotate: false
+  xy: 197, 2
+  size: 12, 70
+  orig: 12, 70
+  offset: 0, 0
+  index: -1
+bile_4
+  rotate: false
+  xy: 229, 67
+  size: 11, 82
+  orig: 11, 82
+  offset: 0, 0
+  index: -1
+bile_5
+  rotate: false
+  xy: 211, 14
+  size: 12, 58
+  orig: 12, 58
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2, 6
+  size: 143, 158
+  orig: 143, 158
+  offset: 0, 0
+  index: -1

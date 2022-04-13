@@ -1,0 +1,41 @@
+
+sacristan.sprite.attack_censer_fx.png
+size: 1759,546
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 596, 47
+  size: 497, 468
+  orig: 497, 468
+  offset: 0, 0
+  index: -1
+smoke1
+  rotate: false
+  xy: 2, 2
+  size: 592, 542
+  orig: 592, 542
+  offset: 0, 0
+  index: -1
+smoke2
+  rotate: false
+  xy: 1488, 243
+  size: 269, 301
+  orig: 269, 301
+  offset: 0, 0
+  index: -1
+smoke3
+  rotate: true
+  xy: 1488, 3
+  size: 238, 234
+  orig: 238, 234
+  offset: 0, 0
+  index: -1
+speckles
+  rotate: true
+  xy: 1066, 108
+  size: 436, 420
+  orig: 436, 420
+  offset: 0, 0
+  index: -1

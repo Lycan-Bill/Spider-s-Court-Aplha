@@ -1,0 +1,41 @@
+
+cardinal.sprite.attack_feed.png
+size: 684,469
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodspittle1
+  rotate: false
+  xy: 503, 134
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+bloodspittle2
+  rotate: false
+  xy: 503, 81
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+bloodspittle3
+  rotate: false
+  xy: 550, 161
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 2
+  size: 499, 465
+  orig: 499, 465
+  offset: 0, 0
+  index: -1
+glow2
+  rotate: false
+  xy: 503, 184
+  size: 179, 283
+  orig: 179, 283
+  offset: 0, 0
+  index: -1

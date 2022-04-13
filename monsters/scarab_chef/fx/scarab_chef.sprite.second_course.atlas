@@ -1,0 +1,34 @@
+
+scarab_chef.sprite.second_course.png
+size: 1178,464
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Food_Flies_1
+  rotate: true
+  xy: 699, 87
+  size: 375, 227
+  orig: 375, 227
+  offset: 0, 0
+  index: -1
+Food_Flies_2
+  rotate: true
+  xy: 928, 162
+  size: 300, 196
+  orig: 300, 196
+  offset: 0, 0
+  index: -1
+Heal_Glow_1
+  rotate: false
+  xy: 2, 4
+  size: 695, 458
+  orig: 695, 458
+  offset: 0, 0
+  index: -1
+Steam
+  rotate: true
+  xy: 928, 2
+  size: 158, 248
+  orig: 158, 248
+  offset: 0, 0
+  index: -1

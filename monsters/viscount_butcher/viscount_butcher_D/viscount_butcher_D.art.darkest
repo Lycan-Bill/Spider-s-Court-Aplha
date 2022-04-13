@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large_boss
+skill: .id "cb_tenderize" .anim "smack"
+skill: .id "VB_slice" .anim "stab"
+riposte_skill: .id "riposte1" .anim "stab"
+defending_area_pos_offset: .offset 0 -80

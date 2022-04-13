@@ -1,10 +1,8 @@
 {
-    "generation":
-    {
-        "dungeon":
-        {
-            "generated_dungeons": 
-            [
+     "generation": {
+        "dungeon": {
+            "generated_quests_max_threshold": 6,
+            "generated_dungeons": [
                 {
                     "id": "courtyard",
                     "required_number_of_quests_finished": 0,

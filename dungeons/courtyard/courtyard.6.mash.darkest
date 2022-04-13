@@ -56,17 +56,25 @@ room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C spider_s
 room: .chance 1 .types spider_webber_C spider_webber_C spider_spitter_C 
 boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C
 boss: .chance 1 .types countess_D
-boss: .chance 1 .types marchioness_small_A
-boss: .chance 1 .types sommeilier_C body_emaciated_C body_average_C body_bloated_C
+
+boss: .chance 1 .types cardinal_C
+
 stall: .chance 2 .types esquire_C courtesan_C  
 stall: .chance 1 .types steward_C chevalier_C  
 stall: .chance 1 .types steward_C sycophant_C  
 stall: .chance 1 .types ghoul_C   
 stall: .chance 1 .types steward_C steward_C  
 stall: .chance 1 .types esquire_C   
+
+named: .name gauntlet_one .chance 1 .types coquette_C vidame_C gourmand_D
+named: .name gauntlet_two .chance 1 .types coquette_C vidame_C lord_C sacristan_C
+named: .name gauntlet_three .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_C
+named: .name gauntlet_four .chance 1 .types valet_C esquire_C steward_C courtesan_C
+named: .name gauntlet_five .chance 1 .types esquire_C steward_C courtesan_C bloody_butler_C
+named: .name gauntlet_six .chance 1 .types coquette_C vidame_C admiral_sucker_C
+named: .name gauntlet_seven .chance 1 .types gourmand_D scarab_chef_C
+
 trap: .chance 1 .types sycophant_C tick_zombie_C
 named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C tick_zombie_C castellan_C 
 named: .name infested_egg_cluster_1 .chance 1 .types steward_C sycophant_C castellan_C 
 named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C sycophant_C sycophant_C castellan_C
-
-boss: .chance 1 .types body_emaciated_C body_average_C sommeilier_C body_bloated_C

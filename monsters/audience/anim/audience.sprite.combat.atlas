@@ -1,0 +1,447 @@
+
+audience.sprite.combat.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+party1
+  rotate: true
+  xy: 2340, 132
+  size: 142, 169
+  orig: 142, 169
+  offset: 0, 0
+  index: -1
+party1 Copy
+  rotate: false
+  xy: 2794, 153
+  size: 112, 101
+  orig: 112, 101
+  offset: 0, 0
+  index: -1
+party1 Copy 10
+  rotate: false
+  xy: 2170, 109
+  size: 168, 155
+  orig: 168, 155
+  offset: 0, 0
+  index: -1
+party1 Copy 11
+  rotate: true
+  xy: 2129, 266
+  size: 130, 209
+  orig: 130, 209
+  offset: 0, 0
+  index: -1
+party1 Copy 12
+  rotate: true
+  xy: 1129, 2
+  size: 173, 316
+  orig: 173, 316
+  offset: 0, 0
+  index: -1
+party1 Copy 13
+  rotate: true
+  xy: 2599, 134
+  size: 56, 116
+  orig: 56, 116
+  offset: 0, 0
+  index: -1
+party1 Copy 14
+  rotate: false
+  xy: 4010, 368
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+party1 Copy 15
+  rotate: true
+  xy: 2340, 276
+  size: 120, 200
+  orig: 120, 200
+  offset: 0, 0
+  index: -1
+party1 Copy 2
+  rotate: true
+  xy: 3217, 202
+  size: 162, 183
+  orig: 162, 183
+  offset: 0, 0
+  index: -1
+party1 Copy 3
+  rotate: false
+  xy: 2599, 192
+  size: 126, 106
+  orig: 126, 106
+  offset: 0, 0
+  index: -1
+party1 Copy 4
+  rotate: false
+  xy: 2996, 109
+  size: 66, 64
+  orig: 66, 64
+  offset: 0, 0
+  index: -1
+party1 Copy 5
+  rotate: false
+  xy: 3225, 141
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+party1 Copy 6
+  rotate: false
+  xy: 2283, 40
+  size: 55, 67
+  orig: 55, 67
+  offset: 0, 0
+  index: -1
+party1 Copy 7
+  rotate: false
+  xy: 626, 200
+  size: 42, 73
+  orig: 42, 73
+  offset: 0, 0
+  index: -1
+party1 Copy 8
+  rotate: false
+  xy: 2117, 188
+  size: 40, 67
+  orig: 40, 67
+  offset: 0, 0
+  index: -1
+party1 Copy 9
+  rotate: false
+  xy: 3764, 94
+  size: 189, 143
+  orig: 189, 143
+  offset: 0, 0
+  index: -1
+party2 Copy
+  rotate: true
+  xy: 1877, 21
+  size: 234, 238
+  orig: 234, 238
+  offset: 0, 0
+  index: -1
+party2 Copy 10
+  rotate: false
+  xy: 1582, 228
+  size: 234, 282
+  orig: 234, 282
+  offset: 0, 0
+  index: -1
+party2 Copy 11
+  rotate: true
+  xy: 1447, 2
+  size: 173, 147
+  orig: 173, 147
+  offset: 0, 0
+  index: -1
+party2 Copy 12
+  rotate: false
+  xy: 2818, 256
+  size: 105, 189
+  orig: 105, 189
+  offset: 0, 0
+  index: -1
+party2 Copy 13
+  rotate: true
+  xy: 1818, 257
+  size: 159, 309
+  orig: 159, 309
+  offset: 0, 0
+  index: -1
+party2 Copy 14
+  rotate: true
+  xy: 3229, 366
+  size: 144, 274
+  orig: 144, 274
+  offset: 0, 0
+  index: -1
+party2 Copy 15
+  rotate: true
+  xy: 1596, 39
+  size: 187, 279
+  orig: 187, 279
+  offset: 0, 0
+  index: -1
+party2 Copy 2
+  rotate: true
+  xy: 2223, 398
+  size: 112, 354
+  orig: 112, 354
+  offset: 0, 0
+  index: -1
+party2 Copy 4
+  rotate: true
+  xy: 626, 2
+  size: 87, 207
+  orig: 87, 207
+  offset: 0, 0
+  index: -1
+party2 Copy 5
+  rotate: true
+  xy: 2908, 176
+  size: 63, 107
+  orig: 63, 107
+  offset: 0, 0
+  index: -1
+party2 Copy 7
+  rotate: true
+  xy: 1129, 177
+  size: 333, 451
+  orig: 333, 451
+  offset: 0, 0
+  index: -1
+party2 Copy 8
+  rotate: true
+  xy: 3765, 367
+  size: 143, 243
+  orig: 143, 243
+  offset: 0, 0
+  index: -1
+party2 Copy 9
+  rotate: true
+  xy: 2938, 412
+  size: 98, 289
+  orig: 98, 289
+  offset: 0, 0
+  index: -1
+party3 Copy
+  rotate: true
+  xy: 3505, 331
+  size: 179, 258
+  orig: 179, 258
+  offset: 0, 0
+  index: -1
+party3 Copy 10
+  rotate: true
+  xy: 3955, 79
+  size: 158, 133
+  orig: 158, 133
+  offset: 0, 0
+  index: -1
+party3 Copy 11
+  rotate: false
+  xy: 1021, 6
+  size: 85, 83
+  orig: 85, 83
+  offset: 0, 0
+  index: -1
+party3 Copy 12
+  rotate: false
+  xy: 670, 91
+  size: 457, 419
+  orig: 457, 419
+  offset: 0, 0
+  index: -1
+party3 Copy 13
+  rotate: true
+  xy: 2340, 8
+  size: 122, 154
+  orig: 122, 154
+  offset: 0, 0
+  index: -1
+party3 Copy 14
+  rotate: false
+  xy: 2170, 2
+  size: 111, 105
+  orig: 111, 105
+  offset: 0, 0
+  index: -1
+party3 Copy 15
+  rotate: true
+  xy: 3064, 97
+  size: 76, 49
+  orig: 76, 49
+  offset: 0, 0
+  index: -1
+party3 Copy 16
+  rotate: false
+  xy: 4010, 443
+  size: 84, 67
+  orig: 84, 67
+  offset: 0, 0
+  index: -1
+party3 Copy 17
+  rotate: true
+  xy: 2, 49
+  size: 224, 439
+  orig: 224, 439
+  offset: 0, 0
+  index: -1
+party3 Copy 18
+  rotate: true
+  xy: 443, 38
+  size: 235, 181
+  orig: 235, 181
+  offset: 0, 0
+  index: -1
+party3 Copy 2
+  rotate: true
+  xy: 2579, 300
+  size: 145, 237
+  orig: 145, 237
+  offset: 0, 0
+  index: -1
+party3 Copy 20
+  rotate: false
+  xy: 3672, 186
+  size: 90, 143
+  orig: 90, 143
+  offset: 0, 0
+  index: -1
+party3 Copy 21
+  rotate: true
+  xy: 2908, 111
+  size: 63, 86
+  orig: 63, 86
+  offset: 0, 0
+  index: -1
+party3 Copy 22
+  rotate: true
+  xy: 136, 6
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+party3 Copy 23
+  rotate: true
+  xy: 3283, 153
+  size: 47, 60
+  orig: 47, 60
+  offset: 0, 0
+  index: -1
+party3 Copy 24
+  rotate: true
+  xy: 75, 8
+  size: 39, 59
+  orig: 39, 59
+  offset: 0, 0
+  index: -1
+party3 Copy 25
+  rotate: false
+  xy: 3345, 149
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+party3 Copy 26
+  rotate: true
+  xy: 2, 7
+  size: 40, 71
+  orig: 40, 71
+  offset: 0, 0
+  index: -1
+party3 Copy 27
+  rotate: false
+  xy: 3115, 118
+  size: 56, 68
+  orig: 56, 68
+  offset: 0, 0
+  index: -1
+party3 Copy 28
+  rotate: true
+  xy: 3017, 175
+  size: 64, 88
+  orig: 64, 88
+  offset: 0, 0
+  index: -1
+party3 Copy 29
+  rotate: false
+  xy: 2727, 179
+  size: 65, 119
+  orig: 65, 119
+  offset: 0, 0
+  index: -1
+party3 Copy 3
+  rotate: true
+  xy: 2925, 241
+  size: 169, 187
+  orig: 169, 187
+  offset: 0, 0
+  index: -1
+party3 Copy 4
+  rotate: false
+  xy: 3114, 188
+  size: 101, 222
+  orig: 101, 222
+  offset: 0, 0
+  index: -1
+party3 Copy 5
+  rotate: false
+  xy: 2511, 143
+  size: 86, 131
+  orig: 86, 131
+  offset: 0, 0
+  index: -1
+party3 Copy 6
+  rotate: true
+  xy: 835, 9
+  size: 80, 184
+  orig: 80, 184
+  offset: 0, 0
+  index: -1
+party3 Copy 7
+  rotate: false
+  xy: 2117, 2
+  size: 51, 184
+  orig: 51, 184
+  offset: 0, 0
+  index: -1
+party3 Copy 8
+  rotate: false
+  xy: 3493, 164
+  size: 177, 165
+  orig: 177, 165
+  offset: 0, 0
+  index: -1
+party3 Copy 9
+  rotate: false
+  xy: 1818, 418
+  size: 403, 92
+  orig: 403, 92
+  offset: 0, 0
+  index: -1
+party4 Copy
+  rotate: true
+  xy: 3765, 239
+  size: 126, 234
+  orig: 126, 234
+  offset: 0, 0
+  index: -1
+party4 Copy 2
+  rotate: true
+  xy: 2, 275
+  size: 235, 666
+  orig: 235, 666
+  offset: 0, 0
+  index: -1
+party4 Copy 3
+  rotate: true
+  xy: 3173, 116
+  size: 70, 50
+  orig: 70, 50
+  offset: 0, 0
+  index: -1
+party4 Copy 4
+  rotate: true
+  xy: 626, 126
+  size: 72, 38
+  orig: 72, 38
+  offset: 0, 0
+  index: -1
+party4 Copy 5
+  rotate: false
+  xy: 3402, 156
+  size: 89, 208
+  orig: 89, 208
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2579, 447
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

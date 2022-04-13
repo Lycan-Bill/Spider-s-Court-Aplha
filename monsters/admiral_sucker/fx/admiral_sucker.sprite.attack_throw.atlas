@@ -1,0 +1,41 @@
+
+admiral_sucker.sprite.attack_throw.png
+size: 652,640
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jumper_1
+  rotate: true
+  xy: 339, 238
+  size: 400, 311
+  orig: 400, 311
+  offset: 0, 0
+  index: -1
+jumper_2
+  rotate: false
+  xy: 2, 2
+  size: 335, 211
+  orig: 335, 211
+  offset: 0, 0
+  index: -1
+spearthrown_1
+  rotate: true
+  xy: 154, 228
+  size: 410, 182
+  orig: 410, 182
+  offset: 0, 0
+  index: -1
+spearthrown_2
+  rotate: true
+  xy: 2, 215
+  size: 423, 150
+  orig: 423, 150
+  offset: 0, 0
+  index: -1
+spearthrown_3
+  rotate: false
+  xy: 339, 46
+  size: 302, 190
+  orig: 302, 190
+  offset: 0, 0
+  index: -1

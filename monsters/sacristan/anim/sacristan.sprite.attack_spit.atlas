@@ -1,0 +1,20 @@
+
+sacristan.sprite.attack_spit.png
+size: 961,767
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 763, 892
+  orig: 763, 892
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 896, 408
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
