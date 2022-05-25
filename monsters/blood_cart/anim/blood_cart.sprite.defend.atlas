@@ -1,0 +1,13 @@
+
+blood_cart.sprite.defend.png
+size: 593,558
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+open
+  rotate: false
+  xy: 2, 2
+  size: 589, 554
+  orig: 589, 554
+  offset: 0, 0
+  index: -1

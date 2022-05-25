@@ -13,7 +13,7 @@ skill: .id "nun_heretic" .type "ranged" .atk 92.5%% .dmg 8 10 .crit 6%  .effect 
 personality: .prefskill -1
 initiative: .number_of_turns_per_round 1
 monster_brain: .id spider_nun
-death_class: .monster_class_id corpse_large_A .is_valid_on_crit False .type "corpse" 
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse"  
 battle_modifier: .accelerate_stall_penalty true .disable_stall_penalty False .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
 mode: .id human .is_raid_default true
 mode: .id beast

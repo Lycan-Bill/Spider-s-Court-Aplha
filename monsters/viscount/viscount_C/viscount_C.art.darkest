@@ -12,3 +12,4 @@ skill: .id "the_hunger_beast" .anim "attack_hunger_beast"
 skill: .id "the_hunger_human" .anim "attack_hunger_human"
 riposte_skill: .id "riposte_attack" .anim "attack_knife" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
 defending_area_pos_offset: .offset 0 -80
+audio_modifier: .intensity 3

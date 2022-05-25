@@ -1,0 +1,62 @@
+
+vidame.sprite.attack_drink.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 4
+  rotate: true
+  xy: 2, 2
+  size: 481, 1038
+  orig: 481, 1038
+  offset: 0, 0
+  index: -1
+blood_droplets
+  rotate: false
+  xy: 1850, 96
+  size: 29, 99
+  orig: 29, 99
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 1042, 80
+  size: 403, 806
+  orig: 403, 806
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1042, 11
+  size: 67, 372
+  orig: 67, 372
+  offset: 0, 0
+  index: -1
+stress_cloud01
+  rotate: false
+  xy: 1850, 197
+  size: 421, 286
+  orig: 421, 286
+  offset: 0, 0
+  index: -1
+stress_cloud02
+  rotate: false
+  xy: 2273, 212
+  size: 401, 271
+  orig: 401, 271
+  offset: 0, 0
+  index: -1
+swarm01
+  rotate: false
+  xy: 3024, 285
+  size: 299, 198
+  orig: 299, 198
+  offset: 0, 0
+  index: -1
+swarm02
+  rotate: false
+  xy: 2676, 254
+  size: 346, 229
+  orig: 346, 229
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+esquire.sprite.attack_drink.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 9
+  rotate: false
+  xy: 2, 202
+  size: 596, 802
+  orig: 596, 802
+  offset: 0, 0
+  index: -1
+blood_droplets
+  rotate: false
+  xy: 1023, 341
+  size: 29, 147
+  orig: 29, 147
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 600, 490
+  size: 556, 514
+  orig: 556, 514
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1561, 941
+  size: 63, 357
+  orig: 63, 357
+  offset: 0, 0
+  index: -1
+stress_cloud01
+  rotate: false
+  xy: 600, 202
+  size: 421, 286
+  orig: 421, 286
+  offset: 0, 0
+  index: -1
+stress_cloud02
+  rotate: false
+  xy: 1158, 733
+  size: 401, 271
+  orig: 401, 271
+  offset: 0, 0
+  index: -1
+swarm01
+  rotate: false
+  xy: 2, 2
+  size: 299, 198
+  orig: 299, 198
+  offset: 0, 0
+  index: -1
+swarm02
+  rotate: false
+  xy: 1158, 502
+  size: 346, 229
+  orig: 346, 229
+  offset: 0, 0
+  index: -1

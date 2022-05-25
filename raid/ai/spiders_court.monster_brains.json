@@ -120,6 +120,17 @@
 				{
 					"type": "ally_class_target",
 					"data": {
+						"base_chance": 10000.0,
+						"specific_combat_skill_id": "sc_preach",
+						"is_exclusive_desire": true,
+						"ally_base_class_id": "spider_nun",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
 						"base_chance": -1000.0,
 						"specific_combat_skill_id": "sc_preach",
 						"is_exclusive_desire": false,
@@ -736,6 +747,226 @@
 					"is_friendly_target_desire": true
 
 				}
+				}
+			],
+
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "blood_cart",
+			"skill_cooldowns": [{
+				"combat_skill_id": "blood_serve",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "cart_tempt",
+					"amount": 2
+
+				}
+			],
+			"skill_selection_desires": [{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 2.0,
+						"combat_skill_id": "cart_tempt"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 12.0,
+						"combat_skill_id": "blood_serve"
+					}
+				}
+			],
+			"target_selection_desires": [{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 10000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": true,
+						"ally_base_class_id": "the_blessed",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 10000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": true,
+						"ally_base_class_id": "vidame",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 10000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": true,
+						"ally_base_class_id": "coquette",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 10000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": true,
+						"ally_base_class_id": "lord",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "spider_bishop",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "sacristan",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "scarab_chef",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "steward",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "castellan",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "chevalier",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "esquire",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "courtesan",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "gourmand",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "tick_zombie",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "bloody_butler",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+				}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_serve",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "admiral_sucker",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+				}
 			}],
 
 			"bonus_initiative_desires": []
@@ -921,7 +1152,7 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 10.0,
+						"base_chance": 100.0,
 						"combat_skill_id": "blood_drink"
 					}
 				}
@@ -995,34 +1226,117 @@
 						"is_friendly_target_desire": true
 
 					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "steward",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "lord",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "esquire",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "gourmand",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "courtesan",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": 1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "coquette",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "sacristan",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "spider_bishop",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
+				},
+				{
+					"type": "ally_class_target",
+					"data": {
+						"base_chance": -1000.0,
+						"specific_combat_skill_id": "blood_drink",
+						"is_exclusive_desire": false,
+						"ally_base_class_id": "spider_bishop",
+						"is_enemy_target_desire": false,
+						"is_friendly_target_desire": true
+
+					}
 				}
 			],
 			"bonus_initiative_desires": []
-		},
-		{
-			"id": "default_A",
-			"skill_cooldowns": [],
-			"skill_selection_desires": [{
-					"type": "preferred_skill",
-					"data": {
-						"base_chance": 1.0
-					}
-				},
-				{
-					"type": "random_skill",
-					"data": {
-						"base_chance": 1.0
-					}
-				},
-				{
-					"type": "heal_skill",
-					"data": {
-						"base_chance": 100.0,
-						"hp_ratio_threshold": 0.5
-					}
-				}
-			],
-			"target_selection_desires": []
 		},
 		{
 			"id": "bloody_butler",

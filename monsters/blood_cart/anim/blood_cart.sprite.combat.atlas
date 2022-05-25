@@ -1,0 +1,13 @@
+
+blood_cart.sprite.combat.png
+size: 593,689
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+closed
+  rotate: false
+  xy: 2, 2
+  size: 589, 685
+  orig: 589, 685
+  offset: 0, 0
+  index: -1

@@ -10,10 +10,6 @@ hall: .chance 1 .types carrion_eater_C carrion_eater_C esquire_C sycophant_C
 hall: .chance 2 .types esquire_C esquire_C courtesan_C sycophant_C
 hall: .chance 1 .types esquire_C esquire_C courtesan_C chevalier_C
 hall: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_Cr_C 
-hall: .chance 1 .types maggot_C maggot_C spider_spitter_C 
-room: .chance 1 .types carrion_eater_C carrion_eater_C carrion_eater_C courtesan_C
-room: .chance 1 .types carrion_eater_C carrion_eater_C sycophant_C courtesan_C
-room: .chance 1 .types carrion_eater_C tick_zombie_C courtesan_C esquire_C
 room: .chance 3 .types steward_C sycophant_C tick_zombie_C courtesan_C
 room: .chance 2 .types steward_C tick_zombie_C sycophant_C sycophant_C
 room: .chance 1 .types steward_C tick_zombie_C sycophant_C esquire_C

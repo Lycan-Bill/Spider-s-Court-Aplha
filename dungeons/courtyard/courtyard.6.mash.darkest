@@ -66,12 +66,12 @@ stall: .chance 1 .types ghoul_C
 stall: .chance 1 .types steward_C steward_C  
 stall: .chance 1 .types esquire_C   
 
-named: .name gauntlet_one .chance 1 .types coquette_C vidame_C gourmand_D
-named: .name gauntlet_two .chance 1 .types coquette_C vidame_C lord_C sacristan_C
+named: .name gauntlet_one .chance 1 .types coquette_C valet_C gourmand_D
+named: .name gauntlet_two .chance 1 .types valet_C vidame_C lord_C sacristan_C
 named: .name gauntlet_three .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_C
-named: .name gauntlet_four .chance 1 .types valet_C esquire_C steward_C courtesan_C
+named: .name gauntlet_four .chance 1 .types valet_C esquire_C blood_cart_C courtesan_C
 named: .name gauntlet_five .chance 1 .types esquire_C steward_C courtesan_C bloody_butler_C
-named: .name gauntlet_six .chance 1 .types coquette_C vidame_C admiral_sucker_C
+named: .name gauntlet_six .chance 1 .types coquette_C blood_cart_C esquire_C admiral_sucker_C
 named: .name gauntlet_seven .chance 1 .types gourmand_D scarab_chef_C
 
 trap: .chance 1 .types sycophant_C tick_zombie_C

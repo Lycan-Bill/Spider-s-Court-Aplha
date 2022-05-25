@@ -1,0 +1,4 @@
+commonfx: .deathfx death_small
+skill: .id "blood_serve" .anim "defend" .custom_target_anim "attack_drink"
+skill: .id "cart_tempt" .anim "defend"
+defending_area_pos_offset: .offset 0 -25
